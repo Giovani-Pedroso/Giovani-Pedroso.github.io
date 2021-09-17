@@ -1,23 +1,39 @@
 # Portfolio
 
-You can use the [editor on GitHub](https://github.com/Giovani-Pedroso/Giovani-Pedroso.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This site was made to show some of my previlius 
+## Lazer cat
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-#Lazer cat
-
-[This](https://github.com/Giovani-Pedroso/laser_cat/) 
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+ This project was one ofthe first thing i diy with the arduino, just a simple toy to distra cats, this projet 
+ 
+ ![Image](https://github.com/Giovani-Pedroso/laser_cat/blob/main/Images/laser.jpeg)
+ 
+ [Link to the repository](https://github.com/Giovani-Pedroso/laser_cat/) 
 
 
-1. Numbered
-2. List
+## Eletric maze
+
+This was a better version of a project that I did in my college, the old one was made with Flip-flod and, logic gates
+and 2 7-seg display, the new version is powered by an atmega328p the stopwatch is showing in an OLED display and also fiture a encoder to select the time to comple the circuit
+
+[Link to the repository](https://github.com/Giovani-Pedroso/electric-labyrinth) 
+
+## Conversor image to oled display
+
+This was a better version of a project that I did in my college, the old one was made with Flip-flod and, logic gates
+and 2 7-seg display, the new version is powered by an atmega328p the stopwatch is showing in an OLED display and also fiture a encoder to select the time to comple the circuit
+
+
+### UI 
+
+ ![Image](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/main_screen%20.png)
+ 
+ ### Image load in the board
+ 
+ ![Image](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/project%20demo.gif) 
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](https://github.com/Giovani-Pedroso/Giovani-Pedroso.github.io/blob/main/laser.jpeg)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
