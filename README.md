@@ -24,6 +24,8 @@ and 2 7-seg display, the new version is powered by an atmega328p the stopwatch i
 OLED displays are useful no matter what is your project but some times they can be a bit borring so I made this project 
 
 
+
+
 ### UI 
 
  ![Image](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/main_screen%20.png)
@@ -33,7 +35,7 @@ OLED displays are useful no matter what is your project but some times they can 
  ![Image](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/project%20demo.gif) 
 
  
- 
+ ![textto do link](https://markdown-here.com/img/icon256.png)
 
 
 
