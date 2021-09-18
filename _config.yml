@@ -1,3 +1,4 @@
-title: [My portfolio]
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have onetitle: [My portfolio]
 description: ["Hello my name is Giovani Pedroso below you will find some of my previous projects"]
 remote_theme: lewismiddleton/cayman-dark
