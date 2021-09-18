@@ -1,6 +1,6 @@
 
 
-Here is some of my previous project begining the oldest and simple to the newest and complex
+Here is some of my previous project begining the oldest and simple to the newest and complex 2222
 
 
 ##  [Lazer cat](https://github.com/Giovani-Pedroso/laser_cat/) 
@@ -16,7 +16,7 @@ Here is some of my previous project begining the oldest and simple to the newest
  
  
  
- ![Image](https://github.com/Giovani-Pedroso/laser_cat/blob/main/Images/laser.jpeg)
+ ![Pseudo shield](https://github.com/Giovani-Pedroso/laser_cat/blob/main/Images/laser.jpeg?raw=true)
  
 
 ## [Eletric maze](https://github.com/Giovani-Pedroso/electric-labyrinth) 
@@ -29,7 +29,9 @@ and 2 7-seg display, the new version is powered by an atmega328p the stopwatch i
  
  **Board/Uc** : Arduino Uno/Atmega328p
  
- **Main components** : OLED display 128x64 - SSD1306 ,rotary encoder
+ **Main components** : OLED display 128x64 - SSD1306 ,Rotary encoder
+  
+ **Frameworks/Libraries** : Adafruit GFX, Adafruit SSD1306
  
  
 
@@ -46,11 +48,11 @@ OLED displays are useful no matter what is your project but some times they can 
 
 ### UI 
 
- ![texto imagem](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/main_screen%20.png)
+ ![UI](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/main_screen%20.png?raw=true)
  
 ### Image loaded in the board
  
- ![texto imagem](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/project%20demo.gif) 
+ ![Gif on the display](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/project%20demo.gif?raw=true) 
 
  
  
