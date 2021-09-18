@@ -28,14 +28,14 @@ OLED displays are useful no matter what is your project but some times they can 
 
 ### UI 
 
- ![Image](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/main_screen%20.png)
+ ![texto imagem](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/main_screen%20.png)
  
 ### Image loaded in the board
  
- ![Image](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/project%20demo.gif) 
+ ![texto imagem](https://github.com/Giovani-Pedroso/Converter-of-images-and-videos-to-128-x-64-display/blob/main/project%20demo.gif) 
 
  
- ![textto do link](https://markdown-here.com/img/icon256.png)
+ 
 
 
 
