@@ -40,7 +40,7 @@ header{
 }
 
 #introduction{
-
+  text-align: justify;
   color: #fff;
   font-family: monospace;
   margin-left: 20px;
@@ -49,6 +49,8 @@ header{
   display: block;
   margin-bottom: 16px;
   line-height: 150%;
+  padding-right:10px;
+  padding-left:10px;
 }
 
 .logos{
@@ -226,7 +228,7 @@ h1{
   header{
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 700px;
   }
 
   .projects{
