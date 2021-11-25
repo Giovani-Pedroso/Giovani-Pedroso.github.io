@@ -11,8 +11,16 @@
 
     <header>
 
+      <div class="language">
+
+        <label for="language">En-Us</label>
+        <input type="radio" name="language" onclick="enUs()" checked="checked">
+        <label for="language">Pt-Br</label>
+        <input type="radio" name="language" onclick="ptBr()">
+      </div>
+
       <!--profile picture -->
-        <img id="myFace" src="Images/face 2.jpeg"alt="eu">
+      <img id="myFace" src="Images/face 2.jpeg" alt="eu" >
 
         <!--Social midias -->
       <div class="social">
@@ -44,7 +52,7 @@
         <div>
           <p id="introduction">
 
-            My name is <b>Giovani Sant'Ana Pedroso</b>  I am graduated in electrical engineering by the University Nove de Julho,
+            Hello my name is <b>Giovani Sant'Ana Pedroso</b>  I am graduated in electrical engineering by the University Nove de Julho,
             while I was improving my abilities I discovered the field of embedded systems which awaken my curiosity to explore the universe of
             the microcontrollers. Down below, you can see the projects that I developed in the platforms Arduino and Blue pill (STM32f103C8)
           </p>
@@ -66,7 +74,7 @@
               <a href="#" target="_blank">
                 <h1 class="name_project"> CNC Ploter</h1>
               </a>
-              <p class="description">A board that i made to learn more about the 18F4550</p>
+              <p class="description" id="project5_description">A board that i made to learn more about the 18F4550</p>
             </div>
         </div>
 
@@ -74,7 +82,7 @@
           <img class="imgs-projects" src="Images/coming-soon.jpg">
             <div id="project4_overlay" class="overlay">
               <a href="#" target="_blank">
-                <h1 class="name_project"> 18F4550 develop board</h1>
+                <h1 class="name_project" id="project4_description"> 18F4550 develop board</h1>
               </a>
               <p class="description">A board that i made to learn more about the 18F4550</p>
             </div>
@@ -86,7 +94,7 @@
               <a href="https://github.com/Giovani-Pedroso/Blue-Pill-a-new-Begining" target="_blank">
                 <h1 class="name_project"> Blue Pill develop board</h1>
               </a>
-              <p class="description">A board that i made to learn more about the Stm32f103c8</p>
+              <p class="description" id="project3_description"> A board that i made to learn more about the Stm32f103c8</p>
             </div>
         </div>
 
@@ -96,10 +104,10 @@
               <a href="https://github.com/Giovani-Pedroso/Oled128-x-64-display-tool-assist" target="_blank">
                 <h1 class="name_project"> Oled128x64 display tool assist</h1>
               </a>
-              <p class="description">a python script to convert img im bmp</p>
+              <p class="description" id="project2_description">a python script to convert img im bmp</p>
               <br>
               <br>
-              <p>Language/Libs:</p>
+              <p class="Language">Language/Libs:</p>
               <div class="platforms">
                 
                 <img src="Images/Languages-Libs/python-logo-64x64.png" alt="">
@@ -113,12 +121,12 @@
           <img id="project1_overlay" class="imgs-projects" src="Images/lab.png">
             <div class="overlay">
               <a href="https://github.com/Giovani-Pedroso/electric-labyrinth" target="_blank">
-                <h1 class="name_project">Electric Maze</h1>
+                <h1 class="name_project" id>Electric Maze</h1>
               </a>
-              <p class="description">A better version of a college project</p>
+              <p class="description" id="project1_description">A better version of a college project</p>
               <br>
               <br>
-              <p>Platafroms:</p>
+              <p class="Platafroms">Platafroms:</p>
               <div class="platforms">
                 <img src="Images\Platforms\arduino logo 64x64.png" alt="">
               </div>
@@ -133,12 +141,12 @@
             <a href="https://github.com/Giovani-Pedroso/laser_cat" target="_blank">
               <h1 class="name_project">Laser toy for cats</h1>
             </a>
-            <p class="description">This was one of my first projects with the Arduino a couple of servo motors
+            <p class="description" id="project0_description">This was one of my first projects with the Arduino a couple of servo motors
               who move a laser in random directions of entertain the cats, frequently I revisit this project to
               make it works in other microcontrollers</p>
               <br>
               <br>
-              <p>Platafroms:</p>
+              <p class="Platafroms">Platafroms:</p>
               <br>
               <div class="platforms">
                 <img src="Images\Platforms\arduino logo 64x64.png" alt="">
@@ -153,7 +161,9 @@
 
     </section>
 
-
+    <footer>
+      <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 
     <script src="app.js"></script>
 
