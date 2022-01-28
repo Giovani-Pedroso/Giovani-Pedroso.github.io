@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="Pt-Br">
+<html lang="En-Us">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../style.css" type="text/css" rel="stylesheet"/>
+    <link href="../style.css" type="text/css" rel="stylesheet" />
     <title> Portfolio </title>
 </head>
 <body>
@@ -13,8 +13,8 @@
 
       <div class="language">
 
-
-        <a href="../index.html"><img src="../Images/Flags/usa.png"></a>
+          <!-- "./ meains current folder"-->
+        <a href="../index.html"> <img src="../Images/Flags/usa.png" alt=""></a>
         <!--
         <label for="language">En-Us</label>
         <input type="radio" name="language" onclick="enUs()" checked="checked">
@@ -25,13 +25,27 @@
       <!--profile picture -->
       <img id="myFace" src="../Images/face 2.jpeg" alt="eu" >
 
-        <!--Social midias -->
+     
+
+        <div>
+          <p id="introduction">
+
+            Olá meu nome é Giovani Sant'Ana Pedroso sou formado em engenharia eletrica pela Universidade
+            Nove de Julho, enquanto eu estava melhorandomeus conhecimentos descobri o mundo dos sistemas
+            embarcados que despertou minha pelo universo dos microcontroladores. Abaixo você poder ver 
+            os projetos que desenvolvi nas plataformas Arduino e Blue pill (STM32f103C8) </p>
+
+
+
+
+        </div>
+
+         <!--Social midias -->
       <div class="social">
-        <a href="mailto:giovanisfpv@gmail.com">
-          <img class="logos"src="../Images/Social-Medias/email-64.png" alt="">
-
-        </a>
-
+      
+          <a href="mailto:giovanisfpv@gmail.com">
+            <img class="logos"src="../Images/Social-Medias/email-64.png" alt="">
+          </a>
 
           <a href="https://github.com/Giovani-Pedroso">
             <img class="logos"src="../Images/Social-Medias/GitHub-Mark-Light-64px.png" alt="">
@@ -49,24 +63,7 @@
             <img class="logos"src="../Images/Social-Medias/linked in.png" alt="">
           </a>
 
-
-        </div>
-
-        <div>
-          <p id="introduction">
-
-            Olá meu nome é Giovani Sant'Ana Pedroso sou formado em engenharia eletrica pela Universidade Nove de Julho,
-             enquanto eu estava melhorandomeus conhecimentos descobri o mundo dos sistemas embarcados que 
-             despertou minha pelo universo dos microcontroladores. Abaixo você poder ver os projetos que desenvolvi 
-             nas plataformas Arduino e Blue pill (STM32f103C8)
-
-
-
-        </p>
-
-
-
-
+        
         </div>
         
     </header>
@@ -77,7 +74,7 @@
 
         <!--
         <div class="projects">
-          <img class="imgs-projects" src="../Images/coming-soon.jpg">
+          <img class="imgs-projects" src="Images/coming-soon.jpg">
             <div id="project5_overlay" class="overlay">
               <a href="#" target="_blank">
                 <h1 class="name_project"> CNC Ploter</h1>
@@ -87,7 +84,7 @@
         </div>
 
         <div class="projects">
-          <img class="imgs-projects" src="../Images/coming-soon.jpg">
+          <img class="imgs-projects" src="Images/coming-soon.jpg">
             <div id="project4_overlay" class="overlay">
               <a href="#" target="_blank">
                 <h1 class="name_project" id="project4_description"> 18F4550 develop board</h1>
@@ -97,7 +94,7 @@
         </div>
 
         <div class="projects">
-          <img class="imgs-projects" src="../Images/coming-soon.jpg">
+          <img class="imgs-projects" src="Images/coming-soon.jpg">
             <div id="project3_overlay" id="project3" class="overlay">
               <a href="https://github.com/Giovani-Pedroso/Blue-Pill-a-new-Begining" target="_blank">
                 <h1 class="name_project"> Blue Pill develop board</h1>
@@ -105,66 +102,96 @@
               <p class="description" id="project3_description"> A board that i made to learn more about the Stm32f103c8</p>
             </div>
         </div>
-    -->
-        <div class="projects">
+-->
+        
+      <div class="projects">
+
+        <a href="https://github.com/Giovani-Pedroso/electric-labyrinth" target="_blank">
+          <img class="imgs-projects" src="../Images/final-paper.jpeg">
+          <!--<img class="imgs-projects" src="Images/main_screen.png">-->
+            
+          <p class="description" id="project2_description">
+            Controle de voz para tevevisoes
+          </p>
+        </a>  
+      </div>
+
+      <div class="projects">
+
+        <a href="https://github.com/Giovani-Pedroso/Oled128-x-64-display-tool-assist" target="_blank">
           <img class="imgs-projects" src="../Images/main_screen.png">
-            <div id="project2_overlay" class="overlay">
-              <a href="https://github.com/Giovani-Pedroso/Oled128-x-64-display-tool-assist" target="_blank">
-                <h1 class="name_project"> Oled128x64 display tool assist</h1>
-              </a>
-              <p class="description" id="project2_description">Um script em python para converter uma imagem em bmp
-                  para a utililização em displays oled 128x64
-              </p>
-              <br>
-              <br>
-              <p class="Language">Language/Libs:</p>
-              <div class="platforms">
-                
-                <img src="../Images/Languages-Libs/python-logo-64x64.png" alt="">
-                <img src="../Images/Languages-Libs/kivy-logo-64x64.png" alt="">
-                <img src="../Images/Languages-Libs/open-cv-logo-64x64.png" alt="">
-              </div>
-            </div>
-        </div>
+          <!--<img class="imgs-projects" src="Images/main_screen.png">-->
+            
+          <p class="description" id="project2_description">
+            Script python para converter img em bmg
+          </p>
+        </a>  
+      </div>
+
+      <div class="projects">
+
+        <a href="https://github.com/Giovani-Pedroso/electric-labyrinth" target="_blank">
+          <img class="imgs-projects" src="../Images/lab.png">
+          <!--<img class="imgs-projects" src="Images/main_screen.png">-->
+            
+          <p class="description" id="project2_description">
+            Nervo teste
+          </p>
+        </a>  
+      </div>
+
+      <div class="projects">
+
+        <a href="https://github.com/Giovani-Pedroso/laser_cat" target="_blank">
+          <img class="imgs-projects" src="../Images/laser.jpeg">
+          <!--<img class="imgs-projects" src="Images/main_screen.png">-->
+            
+          <p class="description" id="project2_description">
+            Brinqueto lazer para gatos
+          </p>
+        </a>  
+      </div>
+
+
+        <!--
 
         <div class="projects">
-            <img id="project1_overlay" class="imgs-projects" src="../Images/lab.png">
-              <div class="overlay">
-                <a href="https://github.com/Giovani-Pedroso/electric-labyrinth" target="_blank">
-                  <h1 class="name_project" id>Nervo teste</h1>
-                </a>
-                <p class="description" id="project1_description">Uma versão melhor de um projeto da faculdate.</p>
-                <br>
-                <br>
-                <p class="Platafroms">Platafroms:</p>
-                <div class="platforms">
-                  <img src="../Images\Platforms\arduino logo 64x64.png" alt="">
-                </div>
+          <img id="project1_overlay" class="imgs-projects" src="Images/lab.png">
+            <div class="overlay">
+              <a href="https://github.com/Giovani-Pedroso/electric-labyrinth" target="_blank">
+                <h1 class="name_project" id>Electric Maze</h1>
+              </a>
+              <p class="description" id="project1_description">A better version of a college project</p>
+              <br>
+              <br>
+              <p class="Platafroms">Platafroms:</p>
+              <div class="platforms">
+                <img src="Images\Platforms\arduino logo 64x64.png" alt="">
               </div>
-        </div>
+            </div>
+      </div>
 
 
 
       <div class="projects">
-        <img class="imgs-projects" src="../Images/laser.jpeg">
+        <img class="imgs-projects" src="Images/laser.jpeg">
           <div id="project0_overlay" class="overlay">
             <a href="https://github.com/Giovani-Pedroso/laser_cat" target="_blank">
               <h1 class="name_project">Laser toy for cats</h1>
             </a>
-            <p class="description" id="project0_description">
-                Esse foi um dos meus primeiros projetos com a plataforma Arduido, dois servo motores que 
-                movem um laser em direções aleatórias para o entretenimento dos meus gatos, eu frequentemente 
-                revisito esse projeto para portaló para outros microcontroladores.
-            </p>
+            <p class="description" id="project0_description">This was one of my first projects with the Arduino a couple of servo motors
+              who move a laser in random directions of entertain the cats, frequently I revisit this project to
+              make it works in other microcontrollers</p>
               <br>
               <br>
               <p class="Platafroms">Platafroms:</p>
               <br>
               <div class="platforms">
-                <img src="../Images\Platforms\arduino logo 64x64.png" alt="">
-                <img src="../Images\Platforms\stm-logo-64x64.png" alt="">
+                <img src="Images\Platforms\arduino logo 64x64.png" alt="">
+                <img src="Images\Platforms\stm-logo-64x64.png" alt="">
               </div>
           </div>
+        -->
     </div>
 
 

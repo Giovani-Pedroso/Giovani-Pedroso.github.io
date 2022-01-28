@@ -3,6 +3,21 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: monospace;
+  
+  --color-bg-body: #fff;
+  /*--color-bg-body: #071836;*/
+  /*--color-header: #332946;*/
+  --color-header: #0d386d;
+  --color-shadow: rgba(0, 0, 0, 0.527);
+  --color-footer: #023e8a;
+  --color-text-introduction: #fff;
+  --color-text-language: #fff;
+  --color-text-description: #fff;
+  --color-bg-projects: #0d386d;
+  --color-h1: blue;
+  /*color palet https://coolors.co/091e3d-030b18-0d3262-16487b*/
+
+  /*color palet https://coolors.co/091e3d-071836-0d386d-16487b*/
 }
 
 
@@ -11,13 +26,13 @@ body{
   padding: 0px;
   /*background-color : #332946;
 */
-  background-color: #fff;
+  background-color: var(--color-bg-body);
 
 }
 
 .language{
   position: absolute;
-  color: white;
+  color: var(--color-text-language);
  /* background-color: #170e1f;
   font-size: 1.4rem;
   border-radius: 20px;*/
@@ -27,27 +42,31 @@ body{
 
 }
 
+hr{
+  width: 80%;
+  margin: 0px auto;
+}
+
 header{
 
   position: relative;
-  background-color :   #332946;
+  background-color :   var(--color-header);
   padding-top: 16px;
   padding-right: 16px;
   padding-left: 16px;
-  height: 400px;
-  box-shadow: 0px 5px 20px #000;
+  height: 480px;
+  box-shadow: 0px 5px 20px var(--color-shadow);
   align-items: center;
   flex-wrap: wrap;
   display: flex;
-  margin-bottom: 40px;
-
+  margin-bottom: 48px;
 
 }
 
 footer{
 
   position: relative;
-  background-color :   #332946;
+  background-color :   var(--color-footer);
   
   justify-content: center;
   height: 30px;
@@ -60,18 +79,19 @@ footer{
 
 #myFace{
 
+  display:block;
   border-radius: 50%;
+  box-shadow: 0px 5px 20px var(--color-shadow);
+  margin: 0px auto;
   
-
-  float: left;
 }
 
 #introduction{
   text-align: justify;
-  color: #fff;
+  color: var(--color-text-introduction);
   font-family: monospace;
-  margin-left: 20px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-size: 16px;
   display: block;
   margin-bottom: 16px;
@@ -84,12 +104,15 @@ footer{
   margin-right:  10px;
   margin-bottom: 10px;
   display: inline;
+  border-radius: 50%;
+  box-shadow: 0px 5px 20px var(--color-shadow);
 }
 
 .social{
 
   align-items: center;
   justify-content: center;
+  margin: 0px auto;
 }
 
 a{ color: inherit;
@@ -111,30 +134,32 @@ a{ color: inherit;
 /*div.projects*/
 .projects{
 
-    height: 400px;
+    height: 300px;
     width: 40%;
-    min-width: 300px;
-
+    width: 400px;
+    
     margin: 0px auto;
     margin-bottom: 40px;
 
-
     font-size: 16px;
-
-
+    border-radius: 5px;
+    background-color: var(--color-bg-projects);
     position: relative;
-
-
+    box-shadow:0 10px 16px 0 rgba(0, 0, 0, 0.527),0 6px 20px 0 rgba(0, 0, 0, 0.527) !important;
 }
 
 .imgs-projects{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 100%;
-  height: 100%;
-  border-radius: 20px;
+  height: 80%;
+  
+  
+  
 }
 
 h1{
-  color: blue;
+  color: var(--color-h1);
   text-align: center;
   text-decoration: underline;
   margin-top: 10px;
@@ -142,81 +167,14 @@ h1{
 }
 
 .description{
+    color: var(--color-text-description);
     text-align: justify;
     text-justify: inter-word;
     margin: 12px;
-}
-
-.platforms{
-  align-items: center;
-  justify-content: center;
-  margin: 0px auto;
 
 }
 
-.platforms img{
 
-  margin: 16px;
-}
-
-.overlay{
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background: rgba(251,229,182, 0.6);
-  color: white;
-  font-family: Quicksand,sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items:  center;
-
-
-  opacity: 0;
-  transition: opacity 0.45s;
-}
-
-.overlay > *{
-  transform: translateY(20px);
-  transition: transform 0.45s;
-
-
-}
-
-.overlay:hover{
-  opacity: 1;
-}
-
-.overlay:hover > *{
-  transform: translateY(0);
-}
-
-#project0_overlay{
-  background: rgba(251,229,182, 0.6);
-}
-
-#project1_overlay{
-  background: rgba(0,0,0, 0.6);
-}
-
-#project2_overlay{
-  background: rgba(53,31,57, 0.6);
-}
-
-#project3_overlay{
-  background: rgba(0,0,255, 0.6);
-}
-
-#project4_overlay{
-  background: rgba(255,0,0, 0.6);
-}
-
-#project5_overlay{
-  background: rgba(220,220,220, 0.6);
-}
 
 @media (max-width:800px) {
 
@@ -247,13 +205,15 @@ h1{
 
   }
 
-  #myFace{
-    float: none;
-    border-radius: 50%;
-    margin: 0px auto;
-    justify-content:    center;
+  #introduction{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
   }
 
+  
 
 }
 
@@ -265,7 +225,7 @@ h1{
   header{
     justify-content: center;
     align-items: center;
-    height: 780px;
+    height: 900px;
   }
 
   .language{

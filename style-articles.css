@@ -1,0 +1,148 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: monospace;
+
+--color-bg-body: #071836;
+/*--color-header: #332946;*/
+--color-header: #0d386d;
+--color-shadow: rgba(0, 0, 0, 0.527);
+--color-footer: #023e8a;
+--color-text-introduction: #fff;
+--color-text-language: #fff;
+--color-text-description: #fff;
+--color-h1: blue;
+/*color palet https://coolors.co/091e3d-030b18-0d3262-16487b*/
+
+/*color palet https://coolors.co/091e3d-071836-0d386d-16487b*/
+}
+
+
+body{
+margin: 0px 0px 0px 0px;
+padding: 0px;
+/*background-color : #332946;
+*/
+background-color: var(--color-bg-body);
+
+}
+
+.language{
+position: absolute;
+color: var(--color-text-language);
+/* background-color: #170e1f;
+font-size: 1.4rem;
+border-radius: 20px;*/
+right: 16px;
+top:16px;
+padding: 10px;
+
+}
+
+footer{
+
+position: relative;
+background-color :   var(--color-footer);
+
+justify-content: center;
+height: 30px;
+
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+
+}
+
+article{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-top: 16px;
+    background-color: var(--color-header);
+    width: 80%;
+    height: 800px;
+    margin: 0px auto;
+
+}
+
+
+@media (max-width:800px) {
+
+
+header{
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+}
+
+.projects{
+
+    height: 500px;
+}
+
+.social{
+    margin: 0px auto;
+}
+
+#myFace{
+    float: none;
+    border-radius: 50%;
+    margin: 0px auto;
+    justify-content:    center;
+
+    
+
+
+}
+
+#introduction{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+
+
+}
+
+
+@media (max-width:500px) {
+
+
+
+header{
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.language{
+    position: relative;
+    margin: 0px auto;
+    margin-bottom: 16px;
+    right: 0;
+    top: 0;
+}
+
+#myFace{
+    float: none;
+    border-radius: 50%;
+    margin: 0px auto;
+    justify-content:    center;
+}
+
+.projects{
+
+    height: 600px;
+}
+
+.social{
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+}
+
