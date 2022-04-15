@@ -1,0 +1,26 @@
+{"articles":[
+    {"title":"Netflix Clone",
+     "description":"This was the first project of the bootcamp carrefour web developer offered by DIO.me, the main goal of the project was recreate the front-end of the famous streaming website Netflix, using html, css and the jQuey lib Owl Carousel 2",
+     "img":"../web/netflix.png",
+     "link":"#"
+
+    }
+    ,{"title":"Survey Form",
+     "description":"A template for a survey form for a bookstore",
+      "img":"../web/book-store.png",
+     "link":"https://giovani-pedroso.github.io/Survey-Form/"
+    }
+
+    ,{"title":"Technical Documentation Page",
+     "description":"This site was one of the projects I did for the FreeCodeCamp course, the purpose of this project was to create a documentation page, so I decided to join two of my main passions, web development and embedded systems, this page shows my progress studying the microcontroller based on ARM the stm32f103 a.k.a blue-pill, as this was one of my first projects, the site is not responsive just working on computer browsers",
+      "img":"../web/blue-pill.png",
+     "link":"https://giovani-pedroso.github.io/Technical-Documentation-Page/"
+    }
+    ,{"title":"Tribute Page",
+     "description":"This was one of my first sites that I made, it's a simple tribute page to one of my favorite Brazilian historical figures, the page was made with basic html and css",
+     "img":"../web/maua.png",
+     "link":"https://giovani-pedroso.github.io/Tribute-Page/"
+    }
+]
+
+}

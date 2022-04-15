@@ -1,0 +1,12 @@
+
+{"articles":[
+    {"title":"Blue pill",
+     "description":"This is a repository I created to track my progress with the stm32f103 a.k.a Blue-Pill",
+     "img":"../embedded/blue-pill.png",
+     "link":"https://github.com/Giovani-Pedroso/Blue-Pill-a-new-Begining"
+
+    }
+
+]
+
+}

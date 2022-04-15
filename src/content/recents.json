@@ -1,0 +1,25 @@
+{"articles":[
+    {"title":"Netflix Clone",
+     "description":"This was the first project of the bootcamp carrefour web developer offered by DIO.me, the main goal of the project was recreate the front-end of the famous streaming website Netflix, using html, css and the jQuey lib Owl Carousel 2",
+     "img":"netflix.png",
+     "link":"#"
+
+    }
+    ,{"title":"Survey-Form",
+     "description":"A template for a survey form for a bookstore",
+      "img":"book-store.png",
+     "link":"https://giovani-pedroso.github.io/Survey-Form/"
+    }
+
+    ,{"title":"Image to BMP converter",
+     "description":"If you've ever worked with embedded systems you know that showing information to the user is an important task, for that you can use an oled display but only showing text can be a little boring, to improve the appearance of your projects I made a script to convert a image or gif into a text file that contains bit information that you can pass to your favorite oled library",
+      "img":"book-store.png",
+     "link":"https://github.com/Giovani-Pedroso/Oled128-x-64-display-tool-assist"
+    }
+
+
+
+
+    
+]
+}

@@ -1,0 +1,47 @@
+.card-projects-recent{
+    width:90%;
+    height:20%;
+    background-color:#0a0a0a;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:28px;
+    color:white;
+}
+
+.button-card-recent{
+    background-color: #01A7C2;
+    margin-top:6px;
+    border:none ;
+    border-radius:10px;
+    font-size: 16px;
+    padding:10px;
+    cursor:pointer;
+    color:white;
+}
+
+.button-card-recent:hover{    
+    outline: 4px solid white ;
+}
+
+.button-card-recent:active{    
+    background-color: #01ffC2;
+}
+.title-image-recent h1{
+    font-size:16px;
+}
+
+.title-image-recent p{
+
+    font-size:16px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+   .title-image-recent {
+   display:flex;
+    margin:20px;
+    flex-direction: column;
+    font-size:16px;
+  }
+}

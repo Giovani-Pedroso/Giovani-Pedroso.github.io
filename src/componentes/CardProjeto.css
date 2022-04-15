@@ -1,0 +1,62 @@
+.card-projects{
+    width:60vw;
+    height:20%;
+    background-color:#0a0a0a;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:28px;
+    color:white;
+}
+
+.title-image{
+
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size:30px;
+
+}
+
+
+
+.button-card{
+    background-color: #01A7C2;
+    margin-top:20px;
+    border:none ;
+    border-radius:10px;
+    font-size: 26px;
+    padding:10px;
+    cursor:pointer;
+    color:white;
+}
+
+.button-card:hover{    
+    outline: 4px solid white ;
+}
+
+.button-card:active{    
+    background-color: #01ffC2;
+}
+
+.images{
+    border-radius:20px 20px 20px 20px;
+
+    height:80%;
+    width:200px;
+    /*
+    height:80%;
+    width:40%;
+*/
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+  .title-image {
+    display:flex;
+    flex-direction: column-reverse;
+    font-size:16px;
+  }
+}

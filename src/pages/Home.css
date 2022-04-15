@@ -1,0 +1,71 @@
+header{
+
+    display:flex;
+    flex-direction: row;
+    height:100%;
+    width:100%;
+}
+
+.intro{
+    width:48%;
+    padding-left:2%;
+    margin-right: 22px;
+}
+
+.intro h1{
+    font-size:36px ;
+}
+
+.intro p{
+    font-size:26px ;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.recent-projects{
+    width:50%;
+    height:78vh;
+}
+.card-recent{
+    height:100%;
+    overflow: scroll;
+}
+
+.container-cards{
+
+    display:flex;
+}
+
+.projects{
+    
+    margin:40px auto;
+
+}
+@media (max-width: 880px) {
+
+    header{
+	padding-left:4%;
+    }
+    .home{
+    display:flex;
+    flex-direction: column;
+    }
+
+    .recent-projects{
+	width:90%;
+	height:100%
+    }
+    
+.card-recent{
+    height:100%;
+    overflow: scroll;
+}
+    .intro{
+	width:90%;
+
+/*
+	height:98vh;
+	padding-left:2%;
+*/
+    }
+}

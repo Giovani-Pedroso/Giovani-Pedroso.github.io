@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+//Import modules
+import {BrowserRouter as Router,} from 'react-router-dom';
+import {useState} from 'react';
+
+//Import of css and componentes files
 import './App.css';
+import NavBar from './componentes/NavBar.jsx';
+import AnimatedRoutes from './componentes/AnimatedRoutes.jsx';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    const [pageSelected, setPageSelected] = useState("home");
+
+    const handlePageSelect= (page) =>{
+        setPageSelected(page);
+    };
+    
+    return (
+        <Router>
+          <NavBar page={pageSelected} />
+          <AnimatedRoutes handlePageSelect={handlePageSelect}/>
+        </Router>
   );
 }
+
 
 export default App;
