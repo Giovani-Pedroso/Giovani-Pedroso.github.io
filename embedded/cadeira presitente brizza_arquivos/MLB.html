@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+		<script async="" src="MLB_data/fbevents.js"></script><script type="text/javascript">
+			window.onload = function(){
+				var fragment = window.location.hash;
+				fragment = fragment.substring(1,fragment.length);
+				fragment = fragment.replace(/\%22/g,"\"");
+				if(fragment != ""){
+					var data = JSON.parse(fragment)
+
+					var advertisingConsent = true;
+					var advertisingConsentFB = "grant";
+
+					if (window.dataLayer) {
+						var userConsentAdvertising = window.dataLayer.find(x => x.user_consent_cookies_advertising);
+
+						if (userConsentAdvertising)
+							advertisingConsent = userConsentAdvertising.user_consent_cookies_advertising;
+
+						if (advertisingConsent)
+							advertisingConsentFB = "grant";
+					}
+
+					if (data.d2id && advertisingConsent) {
+						var x = document.createElement("img");	
+						x.setAttribute("src", "https://pixel.tapad.com/idsync/ex/receive?partner_id=3270&partner_device_id="+data.d2id);	
+						x.setAttribute("width", "1");	
+						x.setAttribute("height", "1");	
+						x.style.display = "none";	
+						document.head.appendChild(x);	
+					}
+
+					<!-- Facebook Pixel Code -->
+					!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+					n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+					n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+					t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+					document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+					fbq('consent', advertisingConsentFB);
+					fbq('init', '1481750885409598');
+
+					var contentType = (function (analyticsTrack) {
+						var analyticsTrackPageVertical = analyticsTrack?.pageVertical;
+						var isClassifiedsAnalyticsTrack = analyticsTrack?.business === 'CLASSIFIED';
+						if (isClassifiedsAnalyticsTrack && analyticsTrackPageVertical === 'MOTORS') {
+							return 'vehicle';
+						}
+						if (isClassifiedsAnalyticsTrack && analyticsTrackPageVertical === 'REAL_ESTATE') {
+							return 'home_listing';
+						}
+						return 'product';
+					}) (window?.__PRELOADED_STATE__?.initialState?.analytics_track);
+					
+					var dpaEventData = {};
+					dpaEventData['content_ids'] = data.items;
+					dpaEventData['content_type'] = contentType;
+	  				dpaEventData['page_type'] = 'SEARCH';
+
+					var eventId = "";
+
+					if (data.query && data.d2id) {
+						var unescapedQuery = unescape(data.query);
+
+						dpaEventData['search_string'] = unescapedQuery;
+
+						eventId = unescapedQuery + "-" + data.d2id;
+					}
+
+					fbq('track', 'Search', dpaEventData, { eventID: eventId });
+				}
+			};
+		</script>
+		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1481750885409598&ev=Search&noscript=1"/></noscript>
+		<!-- End Facebook Pixel Code -->
+		<link rel="shortcut icon" href="about:blank">
+	<img src="MLB_data/receive" style="display: none;" nhv774hod="" width="1" height="1"></head>
+	<body>
+	  
+  </body></html>
