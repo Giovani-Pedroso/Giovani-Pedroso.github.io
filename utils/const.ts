@@ -1,2 +1,1 @@
-  
-export const url = 'http://giovani-web-design-back-end.herokuapp.com'
+export const url = 'https://giovani-web-design-back-end.herokuapp.com'
