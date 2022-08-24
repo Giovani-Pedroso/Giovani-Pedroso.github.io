@@ -15,7 +15,7 @@ const converter = new Showdown.Converter({
 const Home: NextPage = () => {
   const router = useRouter()
   const { id } = router.query
-  const [content, setContent] = useState({})
+  const [content, setContent] = useState({ title: "", description: "", content: "", imgLink: "" })
 
   useEffect(() => {
     const getProject = async () => {
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         setContent(req.data)
 
       }
-      catch (err) {
+      catch (err: any) {
         console.log(err)
         alert(err.message)
       }

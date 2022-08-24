@@ -47,13 +47,14 @@ const Navbar = () => {
   return (
     <motion.nav
       animate={controlNav}
-      className={`flex flex-col z-50 w-full sticky items-center text-[#01A7C2] top-0 left-0 md:p-2 text-[24px] md:px-[5%] justify-between md:p-2 md:flex-row pb-4`}>
+      className={`flex z-50 w-full sticky items-center text-[#01A7C2] top-0 left-0 text-[24px] md:px-[5%] justify-between p-2 flex-row `}>
       <div className="flex w-full  justify-between px-3 md:p-0 ">
         <h1 className="font-[500]">
           <Link href="./">
             Giovani SFPV
           </Link>
         </h1>
+        {/*
         <button className="p-2 md:hidden"
           onClick={() => setNavOpen(!navOpen)}>
           {navOpen ?
@@ -62,11 +63,13 @@ const Navbar = () => {
             <HiOutlineX />
           }
         </button>
+	*/}
       </div>
       {/*
 	*/}
-      <div className="md:flex w-full hidden justify-end items-center">
-        <ul className=" md:flex ">
+      <div className="flex w-full justify-end items-center">
+        <ul className="flex ">
+          {/*
           <li className="mr-[40px] ">
             <Link href="/projects">
               Projects
@@ -77,11 +80,14 @@ const Navbar = () => {
               Blog
             </Link>
           </li>
+	  */}
           <li >
             <motion.button
               animate={controlBtn}
               className="py-1 px-3 bg-[#01A7C2] rounded text-white">
-              <a>
+              <a href="https://docs.google.com/document/d/1qHvuGu5mpEGwpkwx0sp6rFFKY9VDuzaA7nxywCa3U-M/edit?usp=sharing"
+                rel="noreferrer"
+                target="_blank">
                 Resume
               </a>
             </motion.button>

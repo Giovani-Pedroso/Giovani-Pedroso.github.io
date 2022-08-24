@@ -10,19 +10,16 @@ import RecentWorks from '../components/Home/RecentWorks'
 //dotenv.config()
 
 const Home: NextPage = () => {
-  console.log("env: ", process.env.TESTE)
   return (
     <div className="min-h-[200vh] font-main px-[5%]">
       <Intro />
       <Tecnologias />
+      {/*
       <RecentWorks />
       <Responsivos />
-      {
-        /*
-        <Projects />
-        <Blog />
-          */
-      }
+	*/}
+      <Projects />
+      <Blog />
     </div>
   )
 }

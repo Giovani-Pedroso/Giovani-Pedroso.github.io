@@ -17,7 +17,7 @@ const Blog = () => {
         // console.log("The return ", req)
         setBlogPosts(req.data)
       }
-      catch (err) {
+      catch (err: any) {
         console.log(err)
         alert(err.message)
       }
@@ -52,7 +52,7 @@ const Blog = () => {
     //return "aaaaaaaaaaaa"
 
 
-    return blogPosts.map((post) => {
+    return blogPosts.map((post: any) => {
       const dataPost = post.postData
       //console.log(dataPost)
       return (

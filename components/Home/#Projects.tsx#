@@ -30,6 +30,8 @@ const Projects = () => {
     setIsLoading(false)
   }, [])
 
+
+  //Function to create generic cards, just for testing
   const cards = (num: number) => {
     let cards = []
 
@@ -42,7 +44,10 @@ const Projects = () => {
         />
       )
     }
+
+
     return cards
+
   }
 
   const cardsRequest = () => {
@@ -72,7 +77,9 @@ const Projects = () => {
         <div className="flex justify-center itens-center  ">
           <ReactLoading type={"bars"} color={"#01A7C2"} height={100} width={100} />
         </div>
+
       }
+
       {/*
       <div className="flex text-[#01A7C2] text-[20px] ">
         <FaGlobe className="mr-[20px]" />
@@ -86,5 +93,6 @@ const Projects = () => {
     </section>
   )
 }
+
 
 export default Projects

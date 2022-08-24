@@ -18,7 +18,7 @@ const Project: NextPage = () => {
         console.log("The return ", req)
         setAllPosts(req.data)
       }
-      catch (err) {
+      catch (err: any) {
         console.log(err)
         alert(err.message)
       }
@@ -29,7 +29,7 @@ const Project: NextPage = () => {
 
 
   const cardsRequest = () => {
-    return allPosts.map(project => {
+    return allPosts.map((project: any) => {
       const data = project.postData
       // console.log("proj", project)
       return (

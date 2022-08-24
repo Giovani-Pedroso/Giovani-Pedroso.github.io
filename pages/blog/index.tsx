@@ -17,7 +17,7 @@ const Blog: NextPage = () => {
         console.log("The return ", req)
         setAllPosts(req.data)
       }
-      catch (err) {
+      catch (err: any) {
         console.log(err)
         alert(err.message)
       }
@@ -28,14 +28,13 @@ const Blog: NextPage = () => {
 
 
   const cardsRequest = () => {
-    return allPosts.map(project => {
-      const data = project.postData
+    return allPosts.map((project: any) => {
+      const data: any = project.postData
       // console.log("proj", project)
       return (
         <CardBlog img={data.imgLink}
           title={data.title}
           category={data.category}
-          content={data.content}
           description={data.description}
           id={project.postId}
           key={project.postId}

@@ -20,7 +20,7 @@ const Projects = () => {
         console.log("The return ", req)
         setProjectPost(req.data)
       }
-      catch (err) {
+      catch (err: any) {
         console.log(err)
         alert(err.message)
       }
@@ -30,6 +30,7 @@ const Projects = () => {
     setIsLoading(false)
   }, [])
 
+  /*
   const cards = (num: number) => {
     let cards = []
 
@@ -38,18 +39,18 @@ const Projects = () => {
 
         <CardProject img="./images/placeholder-project-1.png"
           title="Florest site"
-          category={['next', 'node', 'firebase', 'ts']} linkSite="#" linkRepo="#"
+          categories={['next', 'node', 'firebase', 'ts']} linkSite="#" linkRepo="#"
         />
       )
     }
-
+    
 
     return cards
 
   }
-
+    */
   const cardsRequest = () => {
-    return projectsPost.map(project => {
+    return projectsPost.map((project: any) => {
       const data = project.postData
       // console.log("proj", project)
       return (

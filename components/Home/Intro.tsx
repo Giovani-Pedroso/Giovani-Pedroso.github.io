@@ -21,13 +21,13 @@ const Intro = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <img src="./images/place-holder-profile.png" width="466" />
+        <img src="./images/place-holder-profile.png" alt="profile picture" width="466" />
       </motion.div>
 
       <motion.div
-        initial={{ x: 100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ delay: 1.2, duration: 1 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
 
         className="flex flex-col max-w-[366px] text-right justify-center">
 
@@ -37,7 +37,7 @@ const Intro = () => {
         </h1>
 	  */}
         <p className="my-6">
-          Hell, I am <span className="text-primary">Giovani</span>, I'm a freelancer front-end developer based in Brazil
+          Hello, I am <span className="text-primary">Giovani</span>, I{"'"}m a  {/*freelancer*/} front-end developer based in São Paulo - Brazil
         </p>
         <div className="flex justify-end text-[36px] w-full text-primary ">
 

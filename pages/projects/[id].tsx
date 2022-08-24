@@ -36,9 +36,9 @@ const classIcons = "mr-[10px]"
 const Home: NextPage = () => {
   const router = useRouter()
   const { id } = router.query
-  const [content, setContent] = useState({})
+  const [content, setContent] = useState({ title: "", description: "", content: "", imgLink: "" })
   const [categories, setCategories] = useState([])
-  const [article, setArticle] = useState()
+  //const [article, setArticle] = useState()
 
   useEffect(() => {
     const getProject = async () => {
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
 
         const cat = req.data.categories.sort()
         //const cat = props.ca
-        const icons = cat.map(icon => {
+        const icons = cat.map((icon: string) => {
           switch (icon) {
             case 'ts':
               return <SiTypescript className={classIcons} />
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
 
 
       }
-      catch (err) {
+      catch (err: any) {
         console.log(err)
         alert(err.message)
       }

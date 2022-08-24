@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
-import { TbBrandNextjs } from 'react-icons/tb'
-import { DiHtml5, DiCss3 } from 'react-icons/di'
+import { motion } from 'framer-motion'
 
+//Icons imports
+import { DiHtml5, DiCss3 } from 'react-icons/di'
 import {
   SiTypescript,
   SiJavascript,
@@ -15,16 +16,16 @@ import {
   SiStmicroelectronics,
   SiEspressif,
 } from 'react-icons/si'
-
 import { FaReact } from 'react-icons/fa'
 
 type Prop = {
   img: string
   title: string
-  categories: string[]
-  linkSite: string
-  linkRepo: string
+  categories: any
+  linkSite?: string
+  linkRepo?: string
   content: string
+  id?: string
 }
 const classIcons = "mr-[10px]"
 
@@ -34,8 +35,10 @@ const CardProject = (props: Prop) => {
   useEffect(() => {
     const cat = props.categories.sort()
     //const cat = props.ca
-    console.log("props", props)
-    const icons = cat.map(icon => {
+    //console.log("props", props)
+
+    //Function that will place the categories icons
+    const icons: any = cat.map((icon: string) => {
       switch (icon) {
         case 'ts':
           return <SiTypescript className={classIcons} />
@@ -77,8 +80,11 @@ const CardProject = (props: Prop) => {
 
 
   return (
-    <div className="mt-[32px]">
-      <img src={props.img} className="border-2 border-[#ABAAAA]" width="331" />
+    <motion.div
+      initial={{ y: 48, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1, transition: { duration: 0.6 } }}
+      className="mt-[32px]">
+      <img src={props.img} alt="image project" className="border-2 border-[#ABAAAA]" width="331" />
       <h2 className="mt-2 text-[24px] text-[#01A7C2]">{props.title}</h2>
 
       <div className="flex text-[#ABAAAA] mb-3 text-[16px]">
@@ -87,27 +93,28 @@ const CardProject = (props: Prop) => {
       <div>
         {props.linkSite != "" &&
           <button className="py-1 border-2 border-[#01A7C2] bg-[#01A7C2] text-white w-[80px] mr-[20px]">
-            <a href={props.linkSite}>
+            <a href={props.linkSite} rel="noreferrer" target="_blank">
               Visitar
             </a>
           </button>
         }
         {props.linkRepo != "" &&
           <button className="py-1 border-2 border-[#01A7C2] mr-[20px] text-[#01A7C2] w-[80px] ">
-            <a href={props.linkRepo} target="_blank">
+            <a href={props.linkRepo} rel="noreferrer" target="_blank">
               Repo
             </a>
           </button>
         }
         {props.content != "" &&
           <button className="py-1 border-2 border-[#ABAAAA] bg-[#ABAAAA] text-white mr-[20px] w-[80px] ">
-            <a href={`./projects/${props.id}`} target="_blank">
+            <a href={`./projects/${props.id}`} rel="noreferrer" target="_blank">
+
               About
             </a>
           </button>
         }
       </div>
-    </div>
+    </motion.div>
   )
 }
 
