@@ -1,6 +1,11 @@
 import Link from 'next/link'
 import { GrLinkedin } from 'react-icons/gr'
-import { SiFiverr, SiGithub } from 'react-icons/si'
+import {
+  SiFiverr,
+  SiGithub,
+  SiTwitter,
+  SiReddit
+} from 'react-icons/si'
 import { motion } from 'framer-motion'
 
 const linkVariants = {
@@ -39,7 +44,7 @@ const Intro = () => {
         <p className="my-6">
           Hello, I am <span className="text-primary">Giovani</span>, I{"'"}m a  {/*freelancer*/} front-end developer based in São Paulo - Brazil
         </p>
-        <div className="flex justify-end text-[36px] w-full text-primary ">
+        <div className="flex justify-end text-[36px] w-full mb-6 text-primary ">
 
           {/*
 	  <motion.button
@@ -75,6 +80,7 @@ const Intro = () => {
             <SiFiverr className="" />
           </motion.a>
         </div>
+
       </motion.div>
     </header >
   )

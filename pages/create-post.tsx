@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import type { NextPage } from 'next'
-//import Editor from '../components/create-post/Editor'
+import { url } from '../utils/const'
+import Editor from '../components/create-post/Editor'
 import axios from 'axios'
 const labelStyle = "text-[#01A7C2] text-[26px]"
 const inputStyle = "mb-6 active:border-0"
 
 //it will be change
-const url = 'http://localhost:5000'
+//const url = 'http://localhost:5000'
 
 const CreatePost: NextPage = () => {
+  //console.log(url)
   const [imgLink, setImgLink] = useState('')
   const [title, setTitle] = useState('')
   const [description, setDescription] = useState('')
@@ -155,8 +157,8 @@ const CreatePost: NextPage = () => {
 
         <label className="text-[#01A7C2] text-[26px]  ">Content</label>
 
+        <Editor value={content} setValue={setContent} />
         {/*
-	<Editor value={content} setValue={setContent} />
 	*/}
 
         <label className={`${labelStyle} mt-6`}>Tolken:</label>

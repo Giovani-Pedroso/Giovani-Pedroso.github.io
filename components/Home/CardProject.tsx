@@ -31,7 +31,7 @@ const classIcons = "mr-[10px]"
 
 const CardProject = (props: Prop) => {
   const [categories, setCategories] = useState([])
-  console.log("Card props", props)
+  //console.log("Card props", props)
   useEffect(() => {
     const cat = props.categories.sort()
     //const cat = props.ca

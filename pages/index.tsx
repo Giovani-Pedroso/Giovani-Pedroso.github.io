@@ -17,9 +17,9 @@ const Home: NextPage = () => {
       {/*
       <RecentWorks />
       <Responsivos />
+      <Blog />
 	*/}
       <Projects />
-      <Blog />
     </div>
   )
 }

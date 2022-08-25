@@ -17,7 +17,7 @@ const Projects = () => {
       try {
 
         const req: any = await axios.get(`${url}/get-post/projects/`)
-        console.log("The return ", req)
+        //console.log("The return ", req)
         setProjectPost(req.data)
       }
       catch (err: any) {

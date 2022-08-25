@@ -54,7 +54,7 @@ const Blog = () => {
 
     return blogPosts.map((post: any) => {
       const dataPost = post.postData
-      //console.log(dataPost)
+      console.log(dataPost)
       return (
         <CardBlog img={dataPost.imgLink}
           category={dataPost.category}

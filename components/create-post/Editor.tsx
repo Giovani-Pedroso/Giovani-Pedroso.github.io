@@ -1,4 +1,3 @@
-/*
 import ReactMde from "react-mde";
 import * as Showdown from "showdown";
 import { useState } from 'react'
@@ -41,8 +40,8 @@ const Editor = (props: Props) => {
 
 export default Editor
 
- */
-
+/*
 export default function Editor() {
   return <div>hello</div>
 }
+*/
