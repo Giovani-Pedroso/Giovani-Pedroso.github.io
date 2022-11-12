@@ -1,0 +1,8 @@
+[
+		{
+		"img":"https://i.imgur.com/0aIpdvx.png",
+		"category":"programming",
+		"title":"My emacs configuration",
+		"description":"My init.org file that I use to configure my emacs for programming: front end, back-end, and embedded systems such as the stm32 and esp-idf"
+}
+]

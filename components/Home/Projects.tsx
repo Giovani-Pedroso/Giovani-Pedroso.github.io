@@ -1,35 +1,33 @@
-import { useEffect, useState } from 'react'
-import axios from 'axios'
-import { FaGlobe, FaPython, FaMicrochip } from 'react-icons/fa'
-import { url } from '../../utils/const'
-import ReactLoading from 'react-loading'
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { FaGlobe, FaPython, FaMicrochip } from "react-icons/fa";
+import { url } from "../../utils/const";
+import ReactLoading from "react-loading";
 
-import CardProject from './CardProject'
+import CardProject from "./CardProject";
 
+import projects from "../../content/projects.json";
 
 const Projects = () => {
+  const [projectsPost, setProjectPost] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const [projectsPost, setProjectPost] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
-
-  useEffect(() => {
-    const getProjects = async () => {
-      try {
-
-        const req: any = await axios.get(`${url}/get-post/projects/`)
-        //console.log("The return ", req)
-        setProjectPost(req.data)
-      }
-      catch (err: any) {
-        console.log(err)
-        alert(err.message)
-      }
-    }
-    getProjects()
-
-    setIsLoading(false)
-  }, [])
-
+  /* useEffect(() => {
+  *   const getProjects = async () => {
+  *     try {
+  *       const req: any = await axios.get(`${url}/get-post/projects/`);
+  *       console.log("The return ", req);
+  *       setProjectPost(req.data);
+  *     } catch (err: any) {
+  *       console.log(err);
+  *       alert(err.message);
+  *     }
+  *   };
+  *   getProjects();
+  
+  *   setIsLoading(false);
+  * }, []);
+   */
   /*
   const cards = (num: number) => {
     let cards = []
@@ -49,49 +47,36 @@ const Projects = () => {
 
   }
     */
-  const cardsRequest = () => {
-    return projectsPost.map((project: any) => {
-      const data = project.postData
-      // console.log("proj", project)
-      return (
-        <CardProject img={data.imgLink}
-          title={data.title}
-          categories={data.categories}
-          content={data.content}
-          linkSite={data.linkSite}
-          id={project.postId}
-          key={project.postId}
-          linkRepo={data.linkRepo}
-        />
-      )
-    })
+  console.log("projects", projects);
 
-  }
+  //The original version was designed to call
+  //an api, because loading times the information
+  //now is stored in a json file, now can find the
+  //the original version in the folder of this file
+  //by the name: Projects Web request.tsx
+  const cardsRequest = () => {
+    return projects.map((project: any) => {
+      return (
+        <CardProject
+          img={project.img}
+          title={project.title}
+          categories={project.categories}
+          content={project.content}
+          linkSite={project.linkSite}
+          id={project.postId}
+          key={project.title}
+          linkRepo={project.linkRepo}
+        />
+      );
+    });
+  };
 
   return (
     <section className="my-[60px]">
       <h1 className="text-[#01A7C2] text-[36px] mb-2 font-[300]">Projects</h1>
-
-      {isLoading &&
-        <div className="flex justify-center itens-center  ">
-          <ReactLoading type={"bars"} color={"#01A7C2"} height={100} width={100} />
-        </div>
-
-      }
-
-      {/*
-      <div className="flex text-[#01A7C2] text-[20px] ">
-        <FaGlobe className="mr-[20px]" />
-        <FaPython className="mr-[20px]" />
-        <FaMicrochip className="mr-[20px]" />
-      </div>
-      */}
-      <div className="flex justify-between flex-wrap">
-        {cardsRequest()}
-      </div>
+      <div className="flex justify-between flex-wrap">{cardsRequest()}</div>
     </section>
-  )
-}
+  );
+};
 
-
-export default Projects
+export default Projects;

@@ -1,27 +1,24 @@
-import type { NextPage } from 'next'
-import Tecnologias from '../components/Home/Tecnologias'
-import Intro from '../components/Home/Intro'
-import Projects from '../components/Home/Projects'
-import Blog from '../components/Home/Blog'
-import Responsivos from '../components/Home/Responsivos'
-import RecentWorks from '../components/Home/RecentWorks'
-//import dotenv from 'dotenv'
-
-//dotenv.config()
+import type { NextPage } from "next";
+import Navbar from "../components/Navbar";
+import Intro from "../components/Home/Intro";
+import Tecnologias from "../components/Home/Tecnologias";
+import Highlights from "../components/Home/Highlights";
+import Projects from "../components/Home/Projects";
+import Tutorials from "../components/Home/Tutorial";
 
 const Home: NextPage = () => {
   return (
-    <div className="min-h-[200vh] font-main px-[5%]">
-      <Intro />
-      <Tecnologias />
-      {/*
-      <RecentWorks />
-      <Responsivos />
-      <Blog />
-	*/}
-      <Projects />
+    <div className="">
+      <Navbar />
+      <div className="min-h-[200vh] font-main px-[5%]">
+        <Intro />
+        <Tecnologias />
+        <Highlights />
+        <Tutorials />
+        <Projects />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
