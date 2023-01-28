@@ -1,19 +1,19 @@
 import type { NextPage } from "next";
-import Navbar from "../components/Navbar";
 import Intro from "../components/Home/Intro";
 import Tecnologias from "../components/Home/Tecnologias";
-import Highlights from "../components/Home/Highlights";
+//import Highlights from "../components/Home/Highlights";
 import Projects from "../components/Home/Projects";
 import Tutorials from "../components/Home/Tutorial";
+import Navbar from "../components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="pt-30px">
       <Navbar />
-      <div className="min-h-[200vh] font-main px-[5%]">
+      <div className="min-h-[200vh] mt-[50px] font-main px-[5%]">
         <Intro />
         <Tecnologias />
-        <Highlights />
+        {/* <Highlights /> */}
         <Tutorials />
         <Projects />
       </div>

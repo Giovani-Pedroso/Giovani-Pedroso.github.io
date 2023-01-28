@@ -24,7 +24,6 @@ type Prop = {
   categories: string[];
   linkSite?: string;
   linkRepo?: string;
-  content: string;
   isArticle: boolean;
 };
 const classIcons = "mr-[10px]";
@@ -93,14 +92,14 @@ const CardProject = (props: Prop) => {
 
       <div className="flex text-[#ABAAAA] mb-3 text-[16px]">{categories}</div>
       <div>
-        {props.linkSite != "" && (
+        {props.linkSite && (
           <button className="py-1 border-2 border-[#01A7C2] bg-[#01A7C2] text-white w-[80px] mr-[20px]">
             <a href={props.linkSite} rel="noreferrer" target="_blank">
               Visitar
             </a>
           </button>
         )}
-        {props.linkRepo != "" && (
+        {props.linkRepo && (
           <button className="py-1 border-2 border-[#01A7C2] mr-[20px] text-[#01A7C2] w-[80px] ">
             <a href={props.linkRepo} rel="noreferrer" target="_blank">
               Repo

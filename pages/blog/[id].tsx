@@ -1,50 +1,43 @@
-import type { NextPage } from 'next'
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
-import axios from 'axios'
-import * as Showdown from "showdown";
-import { url } from '../../utils/const'
+import type { NextPage } from "next";
+import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
+import Navbar from "../../components/Navbar";
 
-const converter = new Showdown.Converter({
-  tables: true,
-  simplifiedAutoLink: true,
-  strikethrough: true,
-  tasklists: true
-});
+//import styles from "./styles.module.scss";
 
 const Home: NextPage = () => {
-  const router = useRouter()
-  const { id } = router.query
-  const [content, setContent] = useState({ title: "", description: "", content: "", imgLink: "" })
+  const router = useRouter();
+  const id: any = router.query.id;
+  const [html, setHtml] = useState("");
 
   useEffect(() => {
-    const getProject = async () => {
+    const getHtml = async () => {
       try {
-        const req: any = await axios.get(`${url}/get-post/blog/${id}`)
-        setContent(req.data)
-
+        const idSpaces = id.replace("%20", " ");
+        /*This files were generated using the publish function
+       of org mode*/
+        const html = await import(`../../content/tutorials/${idSpaces}.html`);
+        setHtml(html.default);
+      } catch (err) {
+        setHtml("Article not found");
       }
-      catch (err: any) {
-        console.log(err)
-        alert(err.message)
-      }
-    }
-    getProject()
+    };
 
-
-  }, [])
+    getHtml();
+  }, []);
+  //console.log(test);
 
   return (
-
-    <div className="font-main mt-[40px] px-[5%] ">
-      <h1 className="text-[#01A7C2] text-[36px] mb-2 font-[300]">{content.title}</h1>
-      <p className="text-[16px] text-[#ABAAAA]">{content.description}</p>
-      <article className="mt-[40px]">
-        <img className="text-center" src={content.imgLink} />
-        <div className="post" dangerouslySetInnerHTML={{ __html: converter.makeHtml(content.content) }} />
-      </article>
+    <div className="pb-[28px] pt-[30px] ">
+      <Navbar />
+      <div className="font-main mt-[40px] px-[5%] ">
+        <h1 className="text-primary text-[40px] mb-[20px]">{id}</h1>
+        {/*The styles of the articles were defined int
+        global.css file*/}
+        <div id="html_org" dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

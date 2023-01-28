@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion'
-import { DiHtml5, DiCss3 } from 'react-icons/di'
+import { motion } from "framer-motion";
+import { DiHtml5, DiCss3 } from "react-icons/di";
 
 //import { TbBrandNextjs } from 'react-icons/tb'
 
@@ -10,18 +10,21 @@ import {
   SiNodedotjs,
   SiFirebase,
   SiNextdotjs,
-} from 'react-icons/si'
+  SiArduino,
+  SiStmicroelectronics,
+  SiEspressif,
+} from "react-icons/si";
 
-import { FaReact } from 'react-icons/fa'
+import { FaReact } from "react-icons/fa";
 
 const Tecnologias = () => {
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ delay: .8 }}
-      className=" w-full text-tertiary text-[20px] md:text-[30px]">
+      transition={{ delay: 0.8 }}
+      className=" w-full text-tertiary text-[20px] md:text-[30px]"
+    >
       <div className="flex flex-wrap justify-between my-[20px] ">
         <DiHtml5 />
         <DiCss3 />
@@ -31,11 +34,13 @@ const Tecnologias = () => {
         <SiNextdotjs />
         <SiNodedotjs />
         <FaReact />
-        <SiTailwindcss />
+        <SiStmicroelectronics />
+        <SiArduino />
+        <SiEspressif />
       </div>
-      <h1 className="text-center text-[20px] font-[400]">I work with</h1>
+      {/* <h1 className="text-center text-[20px] font-[400]">I work with</h1> */}
     </motion.div>
-  )
-}
+  );
+};
 
-export default Tecnologias
+export default Tecnologias;
