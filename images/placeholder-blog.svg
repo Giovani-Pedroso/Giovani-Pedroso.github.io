@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="556.96503mm"
+   height="1216.9651mm"
+   viewBox="0 0 556.96503 1216.9651"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="smartphone-template.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.088032463"
+     inkscape:cx="437.33867"
+     inkscape:cy="2186.6933"
+     inkscape:window-width="1362"
+     inkscape:window-height="722"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect5925"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,12.053806,0,1 @ F,0,0,1,0,12.608773,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.69616,-36.632319)">
+    <rect
+       style="fill:none;stroke:#01a7c2;stroke-width:16.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect111"
+       width="540"
+       height="1200"
+       x="47.178661"
+       y="45.114822"
+       ry="61.540813"
+       inkscape:export-filename="smartphone-template.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:#01a7c2;fill-opacity:1;stroke:#01a7c2;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5871"
+       width="159.46432"
+       height="41.219753"
+       x="237.4465"
+       y="36.632324"
+       inkscape:path-effect="#path-effect5925"
+       d="M 237.4465,36.632324 H 396.91083 V 65.798271 A 12.053806,12.053806 135 0 1 384.85702,77.852077 H 250.05528 A 12.608773,12.608773 45 0 1 237.4465,65.243304 Z"
+       sodipodi:type="rect" />
+  </g>
+</svg>
