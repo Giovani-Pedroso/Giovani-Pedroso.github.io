@@ -1,56 +1,54 @@
 [
-
-		{
-		"img":"https://i.imgur.com/jAhJzHK.png",
-		"title":"Cleide psicologia",
-		"categories":["next", "tailwind","ts"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/Clinica-psicologica",
-		"linkSite":"https://giovani-pedroso.github.io/Clinica-psicologica/",
-		"isArticle":false
-},
-		{
-		"img":"https://imgur.com/hz0EP6V.png",
-		"title":"Techday - Carrefour, Dio",
-		"categories":["js", "next","firebase","tailwind"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/techday",
-		"isArticle":false
-},
-		{
-		"img":"https://i.imgur.com/53jW7KJ.png",
-		"title":"Covid monitor",
-		"categories":["react", "js"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/Monitor-Covid",
-		"linkSite":"https://giovani-pedroso.github.io/Monitor-Covid/",
-		"isArticle":false
-},
-		{
-		"img":"https://i.imgur.com/tAf7BXl.png",
-		"title":"Image to BMP Converter",
-		"categories":["python"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/Oled128-x-64-display-tool-assist",
-		"isArticle":false
-},
-		{
-		"img":"https://i.imgur.com/18MT6Pc.png",
-		"title":"Blue pill stm32",
-		"categories":["cpp", "stm"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/Blue-Pill-a-new-Begining",
-		"isArticle":false
-},
-		{
-		"img":"https://i.imgur.com/gkRrPp0.png",
-		"title":"Survey Form",
-		"categories":["html", "css"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/Survey-Form",
-		"linkSite":"https://giovani-pedroso.github.io/Survey-Form/",
-		"isArticle":false
-},
-		{
-		"img":"https://i.imgur.com/xk0LKCI.png",
-		"title":"Tribute Page",
-		"categories":["html", "css"],
-		"linkRepo":"https://github.com/Giovani-Pedroso/Tribute-Page",
-		"linkSite":"https://giovani-pedroso.github.io/Tribute-Page",
-		"isArticle":false
-}
+  {
+    "img": "https://i.imgur.com/jAhJzHK.png",
+    "title": "Cleide psicologia",
+    "categories": ["next", "tailwind", "ts"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/Clinica-psicologica",
+    "isArticle": false
+  },
+  {
+    "img": "https://imgur.com/hz0EP6V.png",
+    "title": "Techday - Carrefour, Dio",
+    "categories": ["js", "next", "firebase", "tailwind"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/techday",
+    "isArticle": false
+  },
+  {
+    "img": "https://i.imgur.com/53jW7KJ.png",
+    "title": "Covid monitor",
+    "categories": ["react", "js"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "linkSite": "https://giovani-pedroso.github.io/Monitor-Covid/",
+    "isArticle": false
+  },
+  {
+    "img": "https://i.imgur.com/tAf7BXl.png",
+    "title": "Image to BMP Converter",
+    "categories": ["python"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/Oled128-x-64-display-tool-assist",
+    "isArticle": false
+  },
+  {
+    "img": "https://i.imgur.com/18MT6Pc.png",
+    "title": "Blue pill stm32",
+    "categories": ["cpp", "stm"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/Blue-Pill-a-new-Begining",
+    "isArticle": false
+  },
+  {
+    "img": "https://i.imgur.com/gkRrPp0.png",
+    "title": "Survey Form",
+    "categories": ["html", "css"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/Survey-Form",
+    "linkSite": "https://giovani-pedroso.github.io/Survey-Form/",
+    "isArticle": false
+  },
+  {
+    "img": "https://i.imgur.com/xk0LKCI.png",
+    "title": "Tribute Page",
+    "categories": ["html", "css"],
+    "linkRepo": "https://github.com/Giovani-Pedroso/Tribute-Page",
+    "linkSite": "https://giovani-pedroso.github.io/Tribute-Page",
+    "isArticle": false
+  }
 ]
