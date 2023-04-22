@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const [navStyle, setNavStyle] = useState("bg-[#fff] text-[#01A7C2]");
   const [navOpen, setNavOpen] = useState(false);
+
   const changeBackGround = () => {
     if (window.scrollY > 40) {
       controlNav.start({
