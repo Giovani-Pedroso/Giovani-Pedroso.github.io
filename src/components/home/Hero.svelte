@@ -16,7 +16,7 @@
     </div>
     <div class="text">
       <p >
-       Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+       Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo. 
       </p>
       <div class="buttons-container">
         <a href="https://github.com/Giovani-Pedroso"
@@ -93,7 +93,39 @@
     border: var(--border-default) solid #000;
 
     width:30%;
-    /* width:200px; */
     margin-right:20px;
+  }
+  .button:active{
+    background-color:#fff;
+    color:#000;
+  }
+  .button:active > .icon{
+    background-color:#fff;
+    color:#000;
+    fill: #000;
+  }
+  @media (max-width: 700px){
+    .presentation{
+      flex-direction:column;
+      padding:0px 20px;
+      /* padding-top:80px; */
+      align-items:flex-start;
+    justify-content: space-evenly;
+    }
+    .topics{
+      font-size:34px
+    }
+    .text{
+      width:100%;
+    max-width:100%;
+    }
+    .icon{
+      display:hidden;
+visibility: hidden;
+    }
+    .button{
+
+      font-size:18px;
+    }
   }
 </style>

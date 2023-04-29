@@ -113,5 +113,12 @@
     border: var(--border-default) solid #000;
     width:30%;
     margin-right:20px;
+    background-color:#000;
+    color:#fff;
   }
+  .button:active{
+    background-color:#fff;
+    color:#000;
+  }
+
 </style>

@@ -9,5 +9,5 @@
 </svelte:head>
 
 <Hero/>
-<Sites/>
-<Blog/>
+<!-- <Sites/> -->
+<!-- <Blog/> -->
