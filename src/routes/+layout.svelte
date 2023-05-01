@@ -29,6 +29,26 @@
 font-weight: 200;
     font-family: "Times New Roman", Times, serif;
   }
+  
+  :global(.button){
+    padding:4px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    border: var(--border-default) solid #000;
+    background-color:#fff;
+    color:#000;
+    width:30%;
+    margin-right:20px;
+  }
+  :global(.button:hover){
+    background-color:#000;
+    color:#fff;
+  }
+
+  :global(.button:hover > .icon){
+    fill: #fff;
+  }
   :global(body){
     margin:0px;
   }

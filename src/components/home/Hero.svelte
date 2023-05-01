@@ -35,7 +35,7 @@
           </div>
           Linkedin
           </a>
-          <a href="https://www.linkedin.com/in/giovani-sant-ana/"
+          <a href="https://www.kaggle.com/giovanipedroso"
             target="_blank"
             class="button">
           <div class="icon" >
@@ -83,26 +83,7 @@
     display:flex;
     flex-direction:row;
   }
-  .button{
-    padding:4px;
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    border: var(--border-default) solid #000;
-    background-color:#fff;
-    color:#000;
-    width:30%;
-    margin-right:20px;
-  }
-  .button:hover{
-    background-color:#000;
-    color:#fff;
-  }
-  .button:hover > .icon{
-    fill: #fff;
-  }
-
-  @media (max-width: 700px){
+  @media (max-width: 860px){
     .presentation{
       flex-direction:column;
       padding:0px var(--padding-mobile);

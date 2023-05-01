@@ -3,9 +3,9 @@
   const posts=[
     {
       img:"/src/lib/images/blog/emacs.png",
-      title:"title",
-      category:"test",
-      description:"Just a test post"
+      title:"My Emacs configuration",
+      category:"Programation",
+      description:"My init.org file that I use to configure my emacs for programming: front end, back-end, and embedded systems such as the stm32 and esp-idf"
     },
     {
       img:"/src/lib/images/blog/emacs.png",
@@ -23,7 +23,14 @@
 </script>
 
 <section>
-  <h1 class="title">Blog - <span><a href="/sites">see all posts</a></span></h1>
+  <h1 class="title title-font">Blog
+    <span>
+          <a href="/blog"
+            class="button buttonModifications">
+            All posts
+          </a>
+    </span>
+  </h1>
   <div class="cards-container">
    {#each posts as post} 
      <CardBlog {...post}/>
@@ -33,33 +40,29 @@
 
 <style>
   section{
-    margin:0px;
     padding: 0px var(--padding-default);
     
   }
   h1{
-    font-size:40px; 
+    font-size:48px; 
     font-weight:normal; 
     margin: 10px 0px;
 
+  }
+  span{
+    /* display:inline; */
+  }
+  .buttonModifications{
+    display:inline;
+    font-size:28px; 
   }
   .cards-container{
     justify-content: space-between;
     flex-wrap: wrap;
     display:flex;
   }
-  /* .title{
-     font-size:40px; 
-     margin: 10px 0px;
-     }
-     .title-container{
-     font-family: 'Cormorant ', sans-serif;
-     padding: 0px 40px;
-     display:flex;
-     flex-direction:row;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom:20px;
-     } */
+  .title{
+    margin:40px 0px ;
+  }
   
 </style>
