@@ -47,10 +47,21 @@
   }
   .tecnologies{
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     background-color: #fff;
     padding: 10px var(--padding-default);
     border-bottom: var(--border-default) solid #000;
     border-top: var(--border-default) solid #000;
+  }
+
+  @media (max-width: 700px){
+
+    .tecnologies{
+    padding: 10px var(--padding-mobile);
+    }
+  .icon{
+    width: 22px;
+  }
   }
 </style>

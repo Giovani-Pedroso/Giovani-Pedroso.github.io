@@ -10,9 +10,9 @@
 <header class="hero">
   <div class="presentation">
     <div>
-      <p class="topics">Web Design</p>
-      <p class="topics">Mobile Developer</p>
-      <p class="topics">Data Analyst</p>
+      <p class="topics title-font">Web Design</p>
+      <p class="topics title-font">Mobile Developer</p>
+      <p class="topics title-font">Data Analyst</p>
     </div>
     <div class="text">
       <p >
@@ -58,7 +58,7 @@
   }
   .topics{
     margin:0px;
-    font-size:60px;
+    font-size:70px;
     /* color: var(--accent-color); */
     /* color: var(--secondary-color); */
   }
@@ -75,7 +75,7 @@
   }
   .icon{
     display:flex;
-    fill: #fff;
+    fill: #000;
     width: 32px;
     margin-right:20px;
   }
@@ -88,40 +88,37 @@
     display:flex;
     flex-direction:row;
     align-items:center;
-    background-color:#000;
-    color:#fff;
     border: var(--border-default) solid #000;
-
+    background-color:#fff;
+    color:#000;
     width:30%;
     margin-right:20px;
   }
-  .button:active{
-    background-color:#fff;
-    color:#000;
+  .button:hover{
+    background-color:#000;
+    color:#fff;
   }
-  .button:active > .icon{
-    background-color:#fff;
-    color:#000;
-    fill: #000;
+  .button:hover > .icon{
+    fill: #fff;
   }
+
   @media (max-width: 700px){
     .presentation{
       flex-direction:column;
-      padding:0px 20px;
-      /* padding-top:80px; */
+      padding:0px var(--padding-mobile);
+      margin-top:40px;
       align-items:flex-start;
-    justify-content: space-evenly;
+      justify-content: space-evenly;
     }
     .topics{
-      font-size:34px
+      font-size:44px
     }
     .text{
       width:100%;
     max-width:100%;
     }
     .icon{
-      display:hidden;
-visibility: hidden;
+      display:none;
     }
     .button{
 

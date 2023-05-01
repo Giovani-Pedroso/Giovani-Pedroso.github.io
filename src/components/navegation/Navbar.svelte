@@ -17,7 +17,7 @@
 
 <nav>
   <div class="navbar">
-    <div class="logo">
+    <div class="logo title-font">
       <a href="/">
       Giovani SFPV
       </a>
@@ -61,20 +61,21 @@
     display:flex;
     fill: #000;
     width: 32px;
-    margin-right:20px;
   }
+
   button{
     background: none;
-color: inherit;
-border: none;
-padding: 0;
-font: inherit;
-cursor: pointer;
-outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
   }
   .logo{
     font-size:24px;
     display:flex;
+    margin: 10px 0px;
     align-items:center;
     width:100%;
     justify-content:space-between;
@@ -86,5 +87,16 @@ outline: inherit;
   }
   li{
     margin-left: 10px;
+  }
+  
+  
+  @media (max-width: 700px){
+    .navbar{
+
+      padding:0px var(--padding-mobile);
+    }
+    ul{
+      display:none;
+    }
   }
 </style>

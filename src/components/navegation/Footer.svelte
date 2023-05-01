@@ -4,14 +4,14 @@
 <footer >
   <div class="infos">
     <div class="info">
-      <h1 class="title">Pages</h1>
+      <h1 class="title title-font">Pages</h1>
       <p><a href="/">Home</a></p>
       <p><a href="/blog">Blog</a></p>
       <p><a href="/sites">Sites</a></p>
       <p><a href="/apps">Apps</a></p>
     </div>
     <div class="info end">
-      <h1 class="title">Contact</h1>
+      <h1 class="title title-font">Contact</h1>
       <p><a href="https://www.linkedin.com/in/giovani-sant-ana/">Linkedin</a></p>
       <p><a href="https://github.com/Giovani-Pedroso">
         Github
@@ -39,7 +39,7 @@
   }
   .info{
     width:100%;
-    padding: 10px 0px;
+    padding: 20px 0px;
     border-right: var(--border-brutal); 
   }
   .end{
@@ -48,6 +48,8 @@
   }
   .title{
     margin-bottom: 10px;
+    margin-top: 0px;
+
     font-weight: normal;
     font-size: 24px;
   }
@@ -61,4 +63,26 @@
     border-top: var(--border-brutal); 
     padding: 10px var(--padding-default);
   }
+  @media (max-width: 700px){
+    .infos{
+      padding:0;
+      display:flex;
+      flex-direction:column;
+      justify-content: space-evenly;
+    }
+    .info{
+      width:100%;
+      border-right: none; 
+      padding: 10px var(--padding-mobile);
+      border-bottom: var(--border-brutal); 
+    }
+    .end{
+      padding: 10px var(--padding-mobile);
+      border-bottom: none; 
+    }
+    .copyright{
+      padding: 10px var(--padding-mobile);
+  }
+  }
+  
 </style>

@@ -22,7 +22,12 @@
    /* --shadow-brutal: 6px 6px 0px var(--primary-color); */
    --border-brutal: var(--border-size) solid var(--primary-color) ;
    --padding-default: 40px;
+   --padding-mobile: 20px;
    --border-default: 1px;
+  }
+ :global(.title-font){
+font-weight: 200;
+    font-family: "Times New Roman", Times, serif;
   }
   :global(body){
     margin:0px;
