@@ -1,6 +1,6 @@
 <script>
-  import posts from "$lib/data/blogAll.json"
-  import CardProject from "/src/components/ui/CardBlog.svelte"
+  import projects from "$lib/data/projectsAll.json"
+  import CardProject from "/src/components/ui/CardProjects.svelte"
 </script>
 
 <main >
@@ -8,8 +8,8 @@
   <h1 class="title title-font" >Projects</h1>
   </div>
   <div class="containerCards">
-    {#each posts as post}
-    <CardProject {...post} />
+    {#each projects as project}
+    <CardProject {...project} />
     {/each}
   </div>
   
@@ -53,3 +53,4 @@
     margin: 10px 0px;
   }
 </style>
+

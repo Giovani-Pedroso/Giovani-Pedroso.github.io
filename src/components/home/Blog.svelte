@@ -1,25 +1,6 @@
 <script>
   import CardBlog from "../ui/CardBlog.svelte"
-  const posts=[
-    {
-      img:"/src/lib/images/blog/emacs.png",
-      title:"My Emacs configuration",
-      category:"Programation",
-      description:"My init.org file that I use to configure my emacs for programming: front end, back-end, and embedded systems such as the stm32 and esp-idf"
-    },
-    {
-      img:"/src/lib/images/blog/emacs.png",
-      title:"title",
-      category:"test",
-      description:"Just a test post"
-    },
-    {
-      img:"/src/lib/images/blog/emacs.png",
-      title:"title",
-      category:"test",
-      description:"Just a test post"
-    },
-  ]
+  import posts from "$lib/data/blogHome.json"
 </script>
 
 <section>

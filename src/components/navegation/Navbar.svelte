@@ -21,23 +21,23 @@
       <a href="/">
       Giovani SFPV
       </a>
-      <button on:click="{handleOpen}"
-        title="Menu navbar"
-        class="icon" >
-        {#if isOpen}
-          <Close/>
-        {:else}
-          <Menu/> 
-        {/if}
-      </button>
+      <!-- <button on:click="{handleOpen}"
+           title="Menu navbar"
+           class="icon" >
+           {#if isOpen}
+           <Close/>
+           {:else}
+           <Menu/> 
+           {/if}
+           </button> -->
     </div>
-  <ul class="pages">
-    {#each pages as page}
-      <li class="page">
-        <a href="{page.link}">{page.name}</a>
-      </li>     
-    {/each}
-  </ul>
+    <!-- <ul class="pages">
+         {#each pages as page}
+         <li class="page">
+         <a href="{page.link}">{page.name}</a>
+         </li>     
+         {/each}
+         </ul> -->
   </div>
 </nav>
 

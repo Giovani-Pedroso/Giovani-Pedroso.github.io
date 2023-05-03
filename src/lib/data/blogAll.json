@@ -1,0 +1,9 @@
+[
+  {
+    "img": "/src/lib/images/blog/emacs.png",
+    "title": "My Emacs configuration",
+    "linkPost": "My-emacs-configuration",
+    "category": "Programation",
+    "description": "My init.org file that I use to configure my emacs for programming: front end, back-end, and embedded systems such as the stm32 and esp-idf"
+  }
+]

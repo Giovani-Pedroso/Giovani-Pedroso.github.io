@@ -1,4 +1,5 @@
 <script>
+  import Arrow from "$lib/icons/arrowRight.svelte"
   export let img;
   export let title
   export let linkPost
@@ -14,9 +15,10 @@
       <h3>{category}</h3>
       <p>{description}</p>
           <a href="{`/blog/${linkPost}`}"
-            target="_blank"
-            class="button">
-            Read
+            class=" buttonMod">
+            Read <span class="arrow">
+            <Arrow/>
+            </span>
           </a>
   </div>
 
@@ -50,6 +52,17 @@
     width:100%;
     border: var(--border-brutal);
     margin: 0px;
+  }
+  .arrow{
+    display:flex;
+    width:28px;
+  }
+  .buttonMod{
+    width:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border:none;
   }
   @media (max-width: 860px){
 

@@ -1,0 +1,38 @@
+[
+  {
+    "img": "/src/lib/images/sites/cleidesantana.webp",
+    "linkSite": "https://cleidesantana.com.br",
+    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "title": "Cleide Psicologia"
+  },
+  {
+    "img": "/src/lib/images/sites/App.webp",
+    "linkSite": "https://play.google.com/store/apps/details?id=com.giovanisfpv.controledeestoquesimples&pli=1",
+    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "title": "Controle de estoque simples"
+  },
+  {
+    "img": "/src/lib/images/sites/techday.webp",
+    "title": "Techday - Carrefour, Dio",
+    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "linkRepo": "https://github.com/Giovani-Pedroso/techday"
+  },
+  {
+    "img": "/src/lib/images/sites/covid.webp",
+    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "title": "Monitor Covid"
+  },
+  {
+    "img": "/src/lib/images/sites/covid.webp",
+    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "title": "Monitor Covid"
+  },
+  {
+    "img": "/src/lib/images/sites/covid.webp",
+    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "title": "Monitor Covid"
+  }
+]

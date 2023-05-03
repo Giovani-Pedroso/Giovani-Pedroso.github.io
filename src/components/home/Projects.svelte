@@ -1,26 +1,29 @@
 <script>
-  import posts from "$lib/data/blogAll.json"
-  import CardProject from "/src/components/ui/CardBlog.svelte"
+  import CardProject from "../ui/CardProjects.svelte"
+  import Test from "$lib/images/cleidesantana.png"
+  import projects from "$lib/data/projectHome.json"
 </script>
 
-<main >
+<section>
   <div class="title-container">
-  <h1 class="title title-font" >Projects</h1>
+    <h1 class="title title-font">
+      Projects
+      <span>
+          <a href="/projects"
+            class="button buttonModifications">
+            All Projects
+          </a>
+    </span>
+    </h1>
   </div>
   <div class="containerCards">
-    {#each posts as post}
-    <CardProject {...post} />
+    {#each projects as project}
+    <CardProject {...project} />
     {/each}
   </div>
-  
-  
-</main>
+</section>
 
 <style>
-  main{
-    padding-top: 40px;
-    min-height:100vh;
-  }
   section{
     margin:0px;
   }

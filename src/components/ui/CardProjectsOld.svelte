@@ -101,24 +101,16 @@
     margin-bottom: 4px;
   }
   .button-container{
-    display:flex;
-    flex-direction:row;
     margin-top:10px;
   }
-  .button{
-    padding:4px;
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    border: var(--border-default) solid #000;
-    width:30%;
-    margin-right:20px;
-    background-color:#000;
-    color:#fff;
+  @media (max-width: 1000px){
+    .card-container{
+      width:40%;
+    }
   }
-  .button:active{
-    background-color:#fff;
-    color:#000;
+  @media (max-width: 860px){
+    .card-container{
+      width:100%;
+    }
   }
-
 </style>

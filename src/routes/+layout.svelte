@@ -26,7 +26,7 @@
    --border-default: 1px;
   }
  :global(.title-font){
-font-weight: 200;
+   font-weight: 200;
     font-family: "Times New Roman", Times, serif;
   }
   
@@ -35,6 +35,7 @@ font-weight: 200;
     display:flex;
     flex-direction:row;
     align-items:center;
+    /* justify-content:center; */
     border: var(--border-default) solid #000;
     background-color:#fff;
     color:#000;
