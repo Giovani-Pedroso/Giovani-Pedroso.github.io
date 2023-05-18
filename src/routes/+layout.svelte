@@ -15,7 +15,8 @@
     font-family: 'Cormorant ', sans-serif;
    --primary-color:#000000;
    --secondary-color:#008;
-   --accent-color:#00f;
+   --accent-color:#aec6cf;
+   --shadow-color:#2a2a2a;
    --border-size:1px;
    --shadow-brutal: 6px 6px 0px var(--primary-color);
    --shadow-brutal-sm: 3px 3px 0px var(--primary-color);
@@ -24,10 +25,12 @@
    --padding-default: 40px;
    --padding-mobile: 20px;
    --border-default: 1px;
+   --border-radius-def: 6px;
   }
  :global(.title-font){
-   font-weight: 200;
-    font-family: "Times New Roman", Times, serif;
+   font-weight: 100;
+   /* font-family: "Times New Roman", Times, serif; */
+   font-family: "Righteous", sans-serif;
   }
   
   :global(.button){
@@ -37,18 +40,20 @@
     align-items:center;
     /* justify-content:center; */
     border: var(--border-default) solid #000;
-    background-color:#fff;
+    background-color:var(--accent-color);
+    box-shadow: 2px 2px 0px black;
     color:#000;
     width:30%;
+    border-radius: var(--border-radius-def);
     margin-right:20px;
   }
   :global(.button:hover){
-    background-color:#000;
-    color:#fff;
+    box-shadow: 3px 3px 0px black;
+    /* background-color:#000;
+       color:var(--accent-color); */
   }
-
   :global(.button:hover > .icon){
-    fill: #fff;
+    /* fill: var(--accent-color); */
   }
   :global(body){
     margin:0px;

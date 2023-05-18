@@ -7,7 +7,6 @@
 <svelte:head>
   <title>Giovani SFPV</title>
 </svelte:head>
-
 <Hero/>
 <Blog/>
 <Projects/>

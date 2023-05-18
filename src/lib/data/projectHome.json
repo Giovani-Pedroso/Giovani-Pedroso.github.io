@@ -1,38 +1,74 @@
 [
   {
-    "img": "/src/lib/images/sites/cleidesantana.webp",
-    "linkSite": "https://cleidesantana.com.br",
-    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "img": "/images/sites/cleidesantana.webp",
+    "alt": "image of a website of a psychological clinic",
+    "links": [
+      {
+        "name": "Site",
+        "link": "https://cleidesantana.com.br"
+      }
+    ],
+    "description": "A website made for a psychological clinic, the website was made with Next.js, tailwind Css and it has A/B tests integrated to evaluate the design performance",
     "title": "Cleide Psicologia"
   },
   {
-    "img": "/src/lib/images/sites/App.webp",
-    "linkSite": "https://play.google.com/store/apps/details?id=com.giovanisfpv.controledeestoquesimples&pli=1",
-    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "img": "/images/sites/App.webp",
+    "alt": "image of an app for manage the storage of a store",
+    "links": [
+      {
+        "name": "Google",
+        "link": "https://play.google.com/store/apps/details?id=com.giovanisfpv.controledeestoquesimples&pli=1"
+      }
+    ],
+    "description": "A simple app made with the goal to manage the inventory of a business, the app is capable of search a product by reading the bar code, take pictures of the products ",
     "title": "Controle de estoque simples"
   },
   {
-    "img": "/src/lib/images/sites/techday.webp",
-    "title": "Techday - Carrefour, Dio",
-    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
-    "linkRepo": "https://github.com/Giovani-Pedroso/techday"
+    "img": "/images/sites/titanic.webp",
+    "alt": "image the ship Titanic",
+    "description": "Machine Learn Model with the Goal to Predict Who Will Survive the Shipwreck of the Titanic, to Train the Model It Was Used the Library Sklearn",
+    "links": [
+      {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/code/giovanipedroso/titanic"
+      }
+    ],
+    "title": "Titanic Kaggle Competition"
   },
   {
-    "img": "/src/lib/images/sites/covid.webp",
-    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
-    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
-    "title": "Monitor Covid"
+    "img": "/images/sites/space-titanic.webp",
+    "title": "Space Titanic Kaggle",
+    "alt": "image of a Space Titanic ship",
+    "description": "This is a reimagination of the Titanic model but now in the space, besides the futuristic approach this models has more data that the previous one, that makes it more challenging",
+    "links": [
+      {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/code/giovanipedroso/space-titanic"
+      }
+    ]
   },
   {
-    "img": "/src/lib/images/sites/covid.webp",
-    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
-    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
-    "title": "Monitor Covid"
+    "img": "/images/sites/techday.webp",
+    "alt": "image of a website",
+    "description": "My entry in the Carrefour tech day competition, the site was made with React, with a CRUD workflow and authentication implemented, the project ended in the top 10",
+    "title": "Carrefour Tech Day",
+    "links": [
+      {
+        "name": "Github",
+        "link": "https://github.com/Giovani-Pedroso/Monitor-Covid"
+      }
+    ]
   },
   {
-    "img": "/src/lib/images/sites/covid.webp",
-    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
-    "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "img": "/images/sites/covid.webp",
+    "alt": "image of a website",
+    "description": "A website created to track down the spread of the COVID-19 in the world, because of changes in the Heroku policies of use, the site is not working as intended",
+    "links": [
+      {
+        "name": "Github",
+        "link": "https://github.com/Giovani-Pedroso/Monitor-Covid"
+      }
+    ],
     "title": "Monitor Covid"
   }
 ]

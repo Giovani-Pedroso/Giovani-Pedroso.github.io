@@ -4,11 +4,10 @@
   let isOpen = false
 
   const pages =[
+    
     {name: "Home", link:"/"},
     {name: "Blog", link:"/blog"},
-    {name: "Sites", link:"sites"},
-    {name: "Apps", link:"/apps"},
-    {name: "Embedded", link:"/"},
+    {name: "Projects", link:"/projects"},
   ]
   function handleOpen(){
     isOpen = !isOpen
@@ -17,7 +16,7 @@
 
 <nav>
   <div class="navbar">
-    <div class="logo title-font">
+    <div class="title-font logo ">
       <a href="/">
       Giovani SFPV
       </a>
@@ -74,6 +73,7 @@
   }
   .logo{
     font-size:24px;
+    color: var(--accent-color);
     display:flex;
     margin: 10px 0px;
     align-items:center;

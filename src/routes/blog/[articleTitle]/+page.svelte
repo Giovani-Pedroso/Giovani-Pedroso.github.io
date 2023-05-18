@@ -17,8 +17,8 @@
         /* console.log("import",articleHtml) */
       }
     catch(err){
-      /* console.log("error message: ",err) */
-      goto('/')
+      console.log("error message: ",err)
+      /* goto('/') */
     }
   })
   

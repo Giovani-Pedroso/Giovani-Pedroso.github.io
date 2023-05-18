@@ -1,0 +1,13 @@
+* To fix
+ + Images are not appering
+ + Erro to read an article
+
+* Images sources
+
+** Titanic
+
+https://wall.alphacoders.com/big.php?i=699661
+
+** Space Titanic
+
+https://www.reddit.com/r/spaceversions/comments/2ezl7g/space_titanic/

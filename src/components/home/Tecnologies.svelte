@@ -49,7 +49,7 @@
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    background-color: #fff;
+    background-color:var(--accent-color);
     padding: 10px var(--padding-default);
     border-bottom: var(--border-default) solid #000;
     border-top: var(--border-default) solid #000;

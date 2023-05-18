@@ -1,38 +1,82 @@
 [
   {
-    "img": "/src/lib/images/sites/cleidesantana.webp",
-    "linkSite": "https://cleidesantana.com.br",
+    "img": "/images/sites/cleidesantana.webp",
+    "alt": "image of a website of a psychological clinic",
+    "links": [
+      {
+        "name": "Site",
+        "link": "https://cleidesantana.com.br"
+      }
+    ],
     "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
     "title": "Cleide Psicologia"
   },
   {
-    "img": "/src/lib/images/sites/App.webp",
-    "linkSite": "https://play.google.com/store/apps/details?id=com.giovanisfpv.controledeestoquesimples&pli=1",
+    "img": "/images/sites/App.webp",
+    "alt": "image of an app for manage the storage of a store",
+    "links": [
+      {
+        "name": "Google",
+        "link": "https://play.google.com/store/apps/details?id=com.giovanisfpv.controledeestoquesimples&pli=1"
+      }
+    ],
     "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
     "title": "Controle de estoque simples"
   },
   {
-    "img": "/src/lib/images/sites/techday.webp",
-    "title": "Techday - Carrefour, Dio",
+    "img": "/images/sites/space-titanic.webp",
+    "title": "Space Titanic Kaggle",
+    "alt": "image of a Space Titanic ship",
     "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
-    "linkRepo": "https://github.com/Giovani-Pedroso/techday"
+    "links": [
+      {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/code/giovanipedroso/space-titanic"
+      }
+    ]
   },
   {
-    "img": "/src/lib/images/sites/covid.webp",
-    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "img": "/images/sites/titanic.webp",
+    "alt": "image the ship Titanic",
     "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
-    "title": "Monitor Covid"
+    "links": [
+      {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/code/giovanipedroso/titanic"
+      }
+    ],
+    "title": "Titanic Kaggle Competition"
   },
   {
-    "img": "/src/lib/images/sites/covid.webp",
-    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "img": "/images/sites/techday.webp",
+    "alt": "image of a website",
     "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
-    "title": "Monitor Covid"
+    "title": "Carrefour Tech Day",
+    "links": [
+      {
+        "name": "Repo",
+        "link": "https://github.com/Giovani-Pedroso/Monitor-Covid"
+      }
+    ]
   },
   {
-    "img": "/src/lib/images/sites/covid.webp",
-    "linkRepo": "https://github.com/Giovani-Pedroso/Monitor-Covid",
+    "img": "/images/sites/covid.webp",
+    "alt": "image of a website",
     "description": "Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus,Donec pretium posuere tellus",
+    "links": [
+      {
+        "name": "Repo",
+        "link": "https://github.com/Giovani-Pedroso/Monitor-Covid"
+      },
+      {
+        "name": "Test",
+        "link": "https://github.com/Giovani-Pedroso/Monitor-Covid"
+      },
+      {
+        "name": "Test 2",
+        "link": "https://github.com/Giovani-Pedroso/Monitor-Covid"
+      }
+    ],
     "title": "Monitor Covid"
   }
 ]

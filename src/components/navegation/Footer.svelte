@@ -6,9 +6,8 @@
     <div class="info">
       <h1 class="title title-font">Pages</h1>
       <p><a href="/">Home</a></p>
+      <p><a href="/projects">Projects</a></p>
       <p><a href="/blog">Blog</a></p>
-      <p><a href="/sites">Sites</a></p>
-      <p><a href="/apps">Apps</a></p>
     </div>
     <div class="info end">
       <h1 class="title title-font">Contact</h1>

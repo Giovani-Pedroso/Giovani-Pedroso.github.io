@@ -1,13 +1,14 @@
 <script>
   import CardProject from "../ui/CardProjects.svelte"
-  import Test from "$lib/images/cleidesantana.png"
   import projects from "$lib/data/projectHome.json"
 </script>
 
 <section>
   <div class="title-container">
     <h1 class="title title-font">
+      <span>
       Projects
+      </span>
       <span>
           <a href="/projects"
             class="button buttonModifications">

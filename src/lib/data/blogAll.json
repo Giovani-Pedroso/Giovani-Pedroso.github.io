@@ -1,8 +1,9 @@
 [
   {
-    "img": "/src/lib/images/blog/emacs.png",
+    "img": "/images/blog/emacs.png",
+    "alt": "Image of the software Emacs",
     "title": "My Emacs configuration",
-    "linkPost": "My-emacs-configuration",
+    "linkPost": "my-emacs",
     "category": "Programation",
     "description": "My init.org file that I use to configure my emacs for programming: front end, back-end, and embedded systems such as the stm32 and esp-idf"
   }

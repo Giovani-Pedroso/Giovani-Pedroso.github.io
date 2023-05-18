@@ -21,9 +21,6 @@
     padding-top: 40px;
     min-height:100vh;
   }
-  section{
-    margin:0px;
-  }
   .containerCards{
     display:flex;
     flex-wrap: wrap;
@@ -42,10 +39,6 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom:20px;
-  }
-  .buttonModifications{
-    display:inline;
-    font-size:28px; 
   }
   h1{
     font-size:48px; 

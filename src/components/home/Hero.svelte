@@ -9,15 +9,14 @@
 
 <header class="hero">
   <div class="presentation">
-    <div>
+    <div class="specs">
       <p class="topics title-font">Web Design</p>
       <p class="topics title-font">Mobile Developer</p>
       <p class="topics title-font">Data Analyst</p>
     </div>
     <div class="text">
       <p >
-       Paellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo. 
-      </p>
+Hi my name is Giovani, I'm a developer based in Brazil, I have experience with embedded programming, mobile and web development and data analysis      </p>
       <div class="buttons-container">
         <a href="https://github.com/Giovani-Pedroso"
           target="_blank"
@@ -55,6 +54,11 @@
     flex-direction:column;
     justify-content: space-between;
     height:100vh;
+  }
+  .specs{
+    color:var(--accent-color);
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #000; 
   }
   .topics{
     margin:0px;
