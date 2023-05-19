@@ -2,7 +2,9 @@
   import Navbar from "../components/navegation/Navbar.svelte"
   import Footer from "../components/navegation/Footer.svelte"
   import "@fontsource/cormorant";
+  import "@fontsource/righteous";
 </script>
+
 <svelte:head>
   <meta name="description" content="Personal site of the developer Giovani SantAna Ferreira Pedroso Vaz">
 </svelte:head>

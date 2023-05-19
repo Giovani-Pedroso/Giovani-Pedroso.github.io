@@ -4,12 +4,15 @@
 <footer >
   <div class="infos">
     <div class="info">
+      <div class="x">
       <h1 class="title title-font">Pages</h1>
       <p><a href="/">Home</a></p>
       <p><a href="/projects">Projects</a></p>
       <p><a href="/blog">Blog</a></p>
+      </div>
     </div>
     <div class="info end">
+      <div class="x">
       <h1 class="title title-font">Contact</h1>
       <p><a href="https://www.linkedin.com/in/giovani-sant-ana/">Linkedin</a></p>
       <p><a href="https://github.com/Giovani-Pedroso">
@@ -18,6 +21,7 @@
       <p>
         giovanisfpv@gmail.com
       </p>
+    </div>
     </div>
   </div>
   <div class="copyright">
@@ -73,19 +77,31 @@
       flex-direction:column;
       justify-content: space-evenly;
     }
+    .x{
+      padding-left: var(--padding-mobile);
+    }
     .info{
-      width:100%;
+      max-width:100vw;
       border-right: none; 
-      padding: 10px var(--padding-mobile);
+      padding-top: 10px;
       border-bottom: var(--border-brutal); 
+      /* width:100%;
+         border-right: none; 
+         padding: 10px var(--padding-mobile);
+         border-bottom: var(--border-brutal);  */
     }
     .end{
-      padding: 10px var(--padding-mobile);
-      border-bottom: none; 
+      padding: 0px;
+      padding-top: 10px;
+      padding-botom: 10px;
+      /* padding: 10px var(--padding-mobile);
+         border-bottom: none;  */
+         border-bottom: none;  
     }
     .copyright{
+      margin-top: 10px;
       padding: 10px var(--padding-mobile);
-  }
+    }
   }
   
 </style>
