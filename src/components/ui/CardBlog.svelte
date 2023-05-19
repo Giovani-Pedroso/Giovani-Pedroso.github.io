@@ -9,7 +9,7 @@
 </script>
 
 <div class="card-container">
-    <img src="{img}" {alt}/>
+    <img src="{img}" alt={alt}/>
     <div class="text">
       <h2 class="title-font">{title}</h2>
       <h3>{category}</h3>
@@ -18,7 +18,7 @@
     <div class="button-container title-font ">
           <a href="{`/blog/${linkPost}`}"
             >
-            Read More<span class="arrow">
+            Read Ariticle<span class="arrow">
             <Arrow/>
             </span>
           </a>

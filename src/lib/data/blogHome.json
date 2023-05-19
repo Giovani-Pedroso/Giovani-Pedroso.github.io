@@ -1,6 +1,7 @@
 [
   {
-    "img": "/images/blog/emacs.png",
+    "img": "/images/blog/emacs.webp",
+    "alt": "Image of the program emacs",
     "title": "My Emacs configuration",
     "linkPost": "my-emacs",
     "category": "Programation",

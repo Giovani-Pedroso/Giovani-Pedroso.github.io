@@ -3,6 +3,9 @@
   import Footer from "../components/navegation/Footer.svelte"
   import "@fontsource/cormorant";
 </script>
+<svelte:head>
+  <meta name="description" content="Personal site of the developer Giovani SantAna Ferreira Pedroso Vaz">
+</svelte:head>
 
 <Navbar/>
 <slot/>
