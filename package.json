@@ -22,8 +22,7 @@
 		"svelte-icon": "^2.0.0",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"vite": "^4.3.0",
-		"vite-plugin-markdown": "^2.1.0"
+		"vite": "^4.3.0"
 	},
 	"type": "module",
 	"dependencies": {

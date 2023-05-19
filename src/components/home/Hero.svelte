@@ -24,7 +24,9 @@ Hi my name is Giovani, I'm a developer based in Brazil, I have experience with e
           <div class="icon" >
             <Github/>
           </div>
+          <span class="title-font">
           Github
+          </span>
           </a>
           <a href="https://www.linkedin.com/in/giovani-sant-ana/"
             target="_blank"
@@ -32,7 +34,9 @@ Hi my name is Giovani, I'm a developer based in Brazil, I have experience with e
           <div class="icon" >
             <Linkedin/>
           </div>
+          <span class="title-font">
           Linkedin
+          </span>
           </a>
           <a href="https://www.kaggle.com/giovanipedroso"
             target="_blank"
@@ -40,7 +44,9 @@ Hi my name is Giovani, I'm a developer based in Brazil, I have experience with e
           <div class="icon" >
             <Kaggle/>
           </div>
+          <span class="title-font">
           Kaggle
+          </span>
           </a>
       </div>
     </div>
@@ -59,6 +65,9 @@ Hi my name is Giovani, I'm a developer based in Brazil, I have experience with e
     color:var(--accent-color);
     -webkit-text-stroke-width: 2px; 
     -webkit-text-stroke-color: #000; 
+  }
+  .button-text{
+    
   }
   .topics{
     margin:0px;

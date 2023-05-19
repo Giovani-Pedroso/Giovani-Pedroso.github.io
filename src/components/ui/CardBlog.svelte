@@ -15,7 +15,7 @@
       <h3>{category}</h3>
       <p>{description}</p>
     </div>
-    <div class="button-container">
+    <div class="button-container title-font ">
           <a href="{`/blog/${linkPost}`}"
             >
             Read More<span class="arrow">
