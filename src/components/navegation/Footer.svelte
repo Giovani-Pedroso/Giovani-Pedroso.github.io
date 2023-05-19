@@ -51,14 +51,18 @@
   }
   a{
     display:block;
-    margin: 5px 0px;
+    padding: 5px 0px;
+    font-size: 28px;
+  }
+  p{
+    font-size: 28px;
   }
   .title{
     margin-bottom: 10px;
     margin-top: 0px;
 
     font-weight: normal;
-    font-size: 24px;
+    font-size: 34px;
   }
   ul{
     list-style-type: none;

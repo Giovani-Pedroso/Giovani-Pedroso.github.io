@@ -106,7 +106,8 @@ Hi my name is Giovani, I'm a developer based in Brazil, I have experience with e
       justify-content: space-evenly;
     }
     .topics{
-      font-size:44px
+      font-size:44px;
+      margin:18px 0px;
     }
     .text{
       width:100%;
