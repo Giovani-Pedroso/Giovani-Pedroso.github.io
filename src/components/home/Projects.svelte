@@ -56,4 +56,9 @@
     font-weight:normal; 
     margin: 10px 0px;
   }
+  @media (max-width: 860px){
+    span{
+      display:block;
+    }
+  }
 </style>

@@ -45,6 +45,10 @@
     padding: 10px var(--padding-default);
     border-right: none; 
   }
+  a{
+    display:block;
+    margin: 5px 0px;
+  }
   .title{
     margin-bottom: 10px;
     margin-top: 0px;
