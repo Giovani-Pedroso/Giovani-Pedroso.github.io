@@ -11,9 +11,9 @@
 <header class="hero">
   <div class="presentation">
     <div class="specs">
-      <p class="topics title-font">Web Design</p>
-      <p class="topics title-font">Mobile Developer</p>
-      <p class="topics title-font">Data Analyst</p>
+      <p class="topics title-font">Web design</p>
+      <p class="topics title-font">Mobile development</p>
+      <p class="topics title-font">Data analysis</p>
     </div>
     <div class="text">
       <p >
