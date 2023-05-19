@@ -7,6 +7,7 @@
   import Tecnologies from "../home/Tecnologies.svelte"
 </script>
 
+
 <header class="hero">
   <div class="presentation">
     <div class="specs">
