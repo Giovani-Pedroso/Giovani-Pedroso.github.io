@@ -72,7 +72,7 @@ Hi my name is Giovani, I'm a developer based in Brazil, I have experience with e
   }
   .topics{
     margin:0px;
-    font-size:70px;
+    font-size:66px;
     /* color: var(--accent-color); */
     /* color: var(--secondary-color); */
   }
