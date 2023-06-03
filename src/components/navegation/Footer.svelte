@@ -51,18 +51,19 @@
   }
   a{
     display:block;
-    padding: 5px 0px;
-    font-size: 28px;
+    /*padding: 5px 0px;*/
+    margin: 8px 0px;
+    font-size: 20px;
   }
   p{
-    font-size: 28px;
+    font-size: 20px;
   }
   .title{
     margin-bottom: 10px;
     margin-top: 0px;
 
     font-weight: normal;
-    font-size: 34px;
+    font-size: 26px;
   }
   ul{
     list-style-type: none;
